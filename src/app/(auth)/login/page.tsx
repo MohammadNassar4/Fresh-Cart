@@ -31,8 +31,10 @@ import { toast } from "@/components/ui/toast";
 import { signIn } from "next-auth/react";
 import { Spinner } from "@/components/ui/spinner";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
+  const router = useRouter();
   const [isPassShown, setIsPassShown] = useState(false);
   const {
     control,
@@ -49,10 +51,12 @@ export default function Login() {
   async function submitForm(data: zod.infer<typeof LoginSchema>) {
     const isLoggedIn = await signIn("credentials", {
       ...data,
-      callbackUrl: "/",
+      redirect: false,
     });
     if (isLoggedIn?.ok) {
       toast.add({ type: "success", description: "Logged in successfully" });
+      router.refresh()
+      router.push("/");
     } else {
       toast.add({ type: "error", description: "Invalid credentials" });
     }

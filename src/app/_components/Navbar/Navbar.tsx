@@ -46,7 +46,7 @@ export default function Navbar() {
       return data.data;
     },
   });
-  
+
   return (
     <div className="sticky top-0 w-full bg-white z-50 border-b border-gray-200">
       <NavigationMenu className="container mx-auto p-4">
@@ -91,9 +91,7 @@ export default function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger
-                className="text-gray-800 hover:text-green-600 font-medium"
-              >
+              <NavigationMenuTrigger className="text-gray-800 hover:text-green-600 font-medium">
                 Categories
               </NavigationMenuTrigger>
               <NavigationMenuContent className="p-0">
@@ -102,16 +100,24 @@ export default function Navbar() {
                     <Link href="/categories">All Categories</Link>
                   </li>
                   <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
-                    <Link href="/products?category=6439d2d167d9aa4ca970649f">Electronics</Link>
+                    <Link href="/products?category=6439d2d167d9aa4ca970649f">
+                      Electronics
+                    </Link>
                   </li>
                   <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
-                    <Link href="/products?category=6439d58a0049ad0b52b9003f">Women&apos;s fashion</Link>
+                    <Link href="/products?category=6439d58a0049ad0b52b9003f">
+                      Women&apos;s fashion
+                    </Link>
                   </li>
                   <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
-                    <Link href="/products?category=6439d5b90049ad0b52b90048">Men&apos;s fashion</Link>
+                    <Link href="/products?category=6439d5b90049ad0b52b90048">
+                      Men&apos;s fashion
+                    </Link>
                   </li>
                   <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
-                    <Link href="/products?category=6439d30b67d9aa4ca97064b1">Beauty & health</Link>
+                    <Link href="/products?category=6439d30b67d9aa4ca97064b1">
+                      Beauty & health
+                    </Link>
                   </li>
                 </ul>
               </NavigationMenuContent>
@@ -153,9 +159,11 @@ export default function Navbar() {
                     d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
                   />
                 </svg>
-                {wishlistData?.length ? <div className="absolute -top-1 -right-1 inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-red-600 text-white">
-                  { wishlistData?.length}
-                    </div> : null}
+                {wishlistData?.length ? (
+                  <div className="absolute -top-1 -right-1 inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-red-600 text-white">
+                    {wishlistData?.length}
+                  </div>
+                ) : null}
               </div>
             </Link>
             <Link href="/cart" prefetch={false}>
@@ -168,16 +176,16 @@ export default function Navbar() {
                 >
                   <path d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
                 </svg>
-                {cartData?.numOfCartItems ? <div className="absolute -top-1 -right-1 inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-green-600 text-white">
-                  { cartData?.numOfCartItems}
-                    </div> : null}
+                {cartData?.numOfCartItems ? (
+                  <div className="absolute -top-1 -right-1 inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-green-600 text-white">
+                    {cartData?.numOfCartItems}
+                  </div>
+                ) : null}
               </div>
             </Link>
             {status === "authenticated" ? (
               <NavigationMenuItem className="hidden lg:block">
-                <NavigationMenuTrigger
-                  className="text-gray-800 hover:text-green-600 font-medium"
-                >
+                <NavigationMenuTrigger className="text-gray-800 hover:text-green-600 font-medium">
                   <div className="group/user w-10 h-10 rounded-full flex justify-center items-center hover:bg-gray-100">
                     <FaRegUserCircle className="text-xl text-gray-500 group-hover/user:text-green-600" />
                   </div>
