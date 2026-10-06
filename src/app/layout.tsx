@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Exo } from "next/font/google";
 import "./globals.css";
+import Navbar from "./_components/Navbar/Navbar";
+import Footer from "./_components/Footer/Footer";
+import FirstNav from "./_components/FirstNav/FirstNav";
+import { Toaster } from "@/components/ui/toast";
+import MySessionProvider from "./_components/MySessionProvider/MySessionProvider";
+import Providers from "./_components/TanStackProvider/TanStackProvider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const ExoFont = Exo({
+  variable: "--font-exo",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
 });
 
@@ -19,11 +21,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${ExoFont.className} antialiased`}>
+      <body>
+          <Providers>
+            <MySessionProvider>
+              <FirstNav />
+              <Navbar />
+              {children}
+              <Toaster />
+              <Footer />
+            </MySessionProvider>
+          </Providers>
+      </body>
     </html>
   );
 }
