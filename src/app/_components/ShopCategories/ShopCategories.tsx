@@ -11,13 +11,13 @@ export default async function ShopCategories() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col sm:flex-row justify-between sm:items-center mb-8">
           <div className="flex  items-center gap-3 my-8">
-            <div className="h-8 w-1.5 bg-linear-to-b from-emerald-500 to-emerald-700 rounded-full" />
+            <div className="h-8 w-1.5 bg-linear-to-b from-teal-500 to-teal-700 rounded-full" />
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
-              Shop By <span className="text-emerald-600">Category</span>
+              Shop By <span className="text-teal-600">Category</span>
             </h2>
           </div>{" "}
           <Link
-            className="text-green-600 self-end sm:self-auto hover:text-green-700 font-medium flex items-center cursor-pointer"
+            className="text-teal-600 self-end sm:self-auto hover:text-teal-700 font-medium flex items-center cursor-pointer"
             href="categories"
           >
             View All Categories

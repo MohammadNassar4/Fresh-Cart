@@ -48,7 +48,7 @@ export default function AddressesPage() {
       <p className="text-gray-500 mb-6 max-w-sm mx-auto">
         Add your first delivery address to make checkout faster and easier.
       </p>
-      <AddAddressDialog cls="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors shadow-lg shadow-green-600/25 cursor-pointer">
+      <AddAddressDialog cls="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors shadow-lg shadow-teal-600/25 cursor-pointer">
         <FaPlus />
         Add Your First Address
       </AddAddressDialog>
@@ -65,7 +65,7 @@ export default function AddressesPage() {
               Manage your saved delivery addresses
             </p>
           </div>
-          <AddAddressDialog cls="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors shadow-lg shadow-green-600/25 cursor-pointer">
+          <AddAddressDialog cls="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors shadow-lg shadow-teal-600/25 cursor-pointer">
             <FaPlus />
             Add Address
           </AddAddressDialog>
@@ -100,12 +100,12 @@ export default function AddressesPage() {
             {addresses?.map((address: AddressType) => (
               <div
                 key={address._id}
-                className="bg-white rounded-2xl border border-gray-100 p-5 shadow-sm hover:shadow-md hover:border-green-100 transition-all duration-200 group"
+                className="bg-white rounded-2xl border border-gray-100 p-5 shadow-sm hover:shadow-md hover:border-teal-100 transition-all duration-200 group"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-start gap-4 flex-1">
-                    <div className="w-11 h-11 rounded-xl bg-green-50 flex items-center justify-center shrink-0 group-hover:bg-green-100 transition-colors">
-                      <FaLocationDot className="text-green-600" />
+                    <div className="w-11 h-11 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 group-hover:bg-teal-100 transition-colors">
+                      <FaLocationDot className="text-teal-600" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-bold text-gray-900 mb-1">
@@ -127,7 +127,7 @@ export default function AddressesPage() {
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <button className="w-9 h-9 rounded-lg bg-gray-100 text-gray-600 hover:bg-green-100 hover:text-green-600 flex items-center justify-center transition-colors cursor-pointer">
+                    <button className="w-9 h-9 rounded-lg bg-gray-100 text-gray-600 hover:bg-teal-100 hover:text-teal-600 flex items-center justify-center transition-colors cursor-pointer">
                       <FaPen />
                     </button>
                     <button

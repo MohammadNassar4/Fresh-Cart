@@ -24,11 +24,11 @@ export default function FirstNav() {
         <div className="flex justify-between items-center h-10">
           <div className="flex items-center gap-6 text-gray-500">
             <span className="flex items-center gap-2">
-              <FaTruckMoving className="text-green-600" />
+              <FaTruckMoving className="text-teal-600" />
               <span>Free Shipping on Orders 500 EGP</span>
             </span>
             <span className="flex items-center gap-2">
-              <FaGift className="text-green-600" />
+              <FaGift className="text-teal-600" />
               <span>New Arrivals Daily</span>
             </span>
           </div>
@@ -36,14 +36,14 @@ export default function FirstNav() {
             <div className="flex items-center gap-4 text-gray-500">
               <a
                 href="tel:+18001234567"
-                className="flex items-center gap-1.5 hover:text-green-600 transition-colors"
+                className="flex items-center gap-1.5 hover:text-teal-600 transition-colors"
               >
                 <FaPhoneAlt />
                 <span>+1 (800) 123-4567</span>
               </a>
               <a
                 href="mailto:support@freshcart.com"
-                className="flex items-center gap-1.5 hover:text-green-600 transition-colors"
+                className="flex items-center gap-1.5 hover:text-teal-600 transition-colors"
               >
                 <FaRegEnvelope />
                 <span>support@freshcart.com</span>
@@ -53,7 +53,7 @@ export default function FirstNav() {
             <div className="flex items-center gap-4">
               {status === "authenticated" ? (
                 <Link
-                  className="flex items-center gap-1.5 text-gray-600 hover:text-green-600 transition-colors"
+                  className="flex items-center gap-1.5 text-gray-600 hover:text-teal-600 transition-colors"
                   href="/profile"
                 >
                   <FiUser />
@@ -61,7 +61,7 @@ export default function FirstNav() {
                 </Link>
               ) : (
                 <Link
-                  className="flex items-center gap-1.5 text-gray-600 hover:text-green-600 transition-colors"
+                  className="flex items-center gap-1.5 text-gray-600 hover:text-teal-600 transition-colors"
                   href="/login"
                 >
                   <FiUser />
@@ -75,7 +75,7 @@ export default function FirstNav() {
                 </button>
               ) : (
                 <Link
-                  className="flex items-center gap-1.5 text-gray-600 hover:text-green-600 transition-colors"
+                  className="flex items-center gap-1.5 text-gray-600 hover:text-teal-600 transition-colors"
                   href="/register"
                 >
                   <FaUserPlus />

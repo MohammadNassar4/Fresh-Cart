@@ -68,13 +68,13 @@ export default function ProductCard(props: { product: ProdType }) {
           <AddToWishlistBTN cls='cursor-pointer bg-white h-8 w-8 rounded-full flex items-center justify-center transition shadow-sm text-gray-600 hover:text-red-500' child={<FaRegHeart />} prodId={product._id} />
           
           <button className="group cursor-pointer bg-white h-8 w-8 rounded-full flex items-center justify-center text-gray-600 hover:text-primary-600 shadow-sm">
-            <FaArrowsRotate className="group-hover:text-green-600" />
+            <FaArrowsRotate className="group-hover:text-teal-600" />
           </button>
           <Link
             href={`/productDetails/${product._id}`}
             className="group bg-white h-8 w-8 rounded-full flex items-center justify-center text-gray-600 hover:text-primary-600 shadow-sm"
           >
-            <FaRegEye className="group-hover:text-green-600" />
+            <FaRegEye className="group-hover:text-teal-600" />
           </Link>
         </div>
       </div>
@@ -122,7 +122,7 @@ export default function ProductCard(props: { product: ProdType }) {
               </span>
             )}
           </div>
-          <AddToCartBTN cls="h-10 w-10 cursor-pointer rounded-full flex items-center justify-center transition bg-green-600 text-white hover:bg-green-700 disabled:opacity-70" child={ <FaPlus className="text-2xl" /> } prodId={product._id} />
+          <AddToCartBTN cls="h-10 w-10 cursor-pointer rounded-full flex items-center justify-center transition bg-teal-600 text-white hover:bg-teal-700 disabled:opacity-70" child={ <FaPlus className="text-2xl" /> } prodId={product._id} />
         </div>
       </div>
     </div>

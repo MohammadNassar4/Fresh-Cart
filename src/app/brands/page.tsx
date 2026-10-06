@@ -9,7 +9,7 @@ export default async function Brands() {
 
   return (
     <div className="min-h-screen bg-gray-50/50">
-      <div className="bg-gradient-to-br from-violet-600 via-violet-500 to-purple-400 text-white">
+      <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
         <div className="container mx-auto px-4 py-12 sm:py-16">
           <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
             <Link className="hover:text-white transition-colors" href="/">
@@ -39,7 +39,7 @@ export default async function Brands() {
           {brands?.map((brand) => (
             <Link
               key={brand._id}
-              className="group bg-white rounded-2xl border border-gray-100 p-4 sm:p-5 shadow-sm hover:shadow-xl hover:border-violet-200 transition-all duration-300 hover:-translate-y-1"
+              className="group bg-white rounded-2xl border border-gray-100 p-4 sm:p-5 shadow-sm hover:shadow-xl hover:border-teal-200 transition-all duration-300 hover:-translate-y-1"
               href={`/products?brand=${brand?._id}`}
             >
               <div className="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-3 p-4 flex items-center justify-center">
@@ -51,11 +51,11 @@ export default async function Brands() {
                   src={brand?.image}
                 />
               </div>
-              <h3 className="font-semibold text-gray-900 text-center text-sm group-hover:text-violet-600 transition-colors truncate">
+              <h3 className="font-semibold text-gray-900 text-center text-sm group-hover:text-teal-600 transition-colors truncate">
                 {brand?.name}
               </h3>
               <div className="flex justify-center mt-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
-                <span className="text-xs text-violet-600 flex items-center gap-1">
+                <span className="text-xs text-teal-600 flex items-center gap-1">
                   View Products
                   <FaArrowRight />
                 </span>

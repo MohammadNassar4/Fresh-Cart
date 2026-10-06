@@ -26,7 +26,7 @@ export default function OrderCard({ order }: { order: Order }) {
     <>
       <AccordionItem
         value={order._id}
-        className="bg-white rounded-2xl shadow border transition-all duration-300 hover:border-green-300 hover:shadow-green-300 overflow-hidden"
+        className="bg-white rounded-2xl shadow border transition-all duration-300 hover:border-teal-300 hover:shadow-teal-300 overflow-hidden"
       >
         <div className="flex gap-5 p-4 md:p-6">
           <div className="relative w-24 h-24 md:w-28 md:h-28 rounded-2xl border shrink-0">
@@ -83,7 +83,7 @@ export default function OrderCard({ order }: { order: Order }) {
               <AccordionTrigger className="p-0">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
-                  className={`py-2.5 px-4 rounded-xl flex gap-1 items-center cursor-pointer transition-all duration-200 text-sm ${isOpen ? "bg-green-600 hover:bg-green-700 text-white shadow shadow-green-300" : "hover:bg-gray-200 bg-gray-100"}`}
+                  className={`py-2.5 px-4 rounded-xl flex gap-1 items-center cursor-pointer transition-all duration-200 text-sm ${isOpen ? "bg-teal-600 hover:bg-teal-700 text-white shadow shadow-teal-300" : "hover:bg-gray-200 bg-gray-100"}`}
                 >
                   {isOpen ? "Hide" : "Details"}{" "}
                   <FaChevronDown
@@ -98,7 +98,7 @@ export default function OrderCard({ order }: { order: Order }) {
         <AccordionContent className="p-4 md:p-6 bg-gray-50">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-6 h-6 rounded-sm bg-green-100 text-green-600 flex justify-center items-center text-xs">
+              <div className="w-6 h-6 rounded-sm bg-teal-100 text-teal-600 flex justify-center items-center text-xs">
                 <FaReceipt />
               </div>
               <span className="text-sm font-semibold">Ordered Items</span>

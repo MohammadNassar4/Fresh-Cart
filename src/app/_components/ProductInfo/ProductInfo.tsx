@@ -103,7 +103,7 @@ export default function ProductInfo({
               <svg
                 data-prefix="fas"
                 data-icon="check"
-                className="svg-inline--fa fa-check text-green-600 mr-2 w-4"
+                className="svg-inline--fa fa-check text-teal-600 mr-2 w-4"
                 role="img"
                 viewBox="0 0 448 512"
                 aria-hidden="true"
@@ -119,7 +119,7 @@ export default function ProductInfo({
               <svg
                 data-prefix="fas"
                 data-icon="check"
-                className="svg-inline--fa fa-check text-green-600 mr-2 w-4"
+                className="svg-inline--fa fa-check text-teal-600 mr-2 w-4"
                 role="img"
                 viewBox="0 0 448 512"
                 aria-hidden="true"
@@ -135,7 +135,7 @@ export default function ProductInfo({
               <svg
                 data-prefix="fas"
                 data-icon="check"
-                className="svg-inline--fa fa-check text-green-600 mr-2 w-4"
+                className="svg-inline--fa fa-check text-teal-600 mr-2 w-4"
                 role="img"
                 viewBox="0 0 448 512"
                 aria-hidden="true"
@@ -151,7 +151,7 @@ export default function ProductInfo({
               <svg
                 data-prefix="fas"
                 data-icon="check"
-                className="svg-inline--fa fa-check text-green-600 mr-2 w-4"
+                className="svg-inline--fa fa-check text-teal-600 mr-2 w-4"
                 role="img"
                 viewBox="0 0 448 512"
                 aria-hidden="true"
@@ -260,7 +260,7 @@ export default function ProductInfo({
           <p className="text-gray-500">
             Customer reviews will be displayed here.
           </p>
-          <button className="mt-4 cursor-pointer text-green-600 hover:text-green-700 font-medium">
+          <button className="mt-4 cursor-pointer text-teal-600 hover:text-teal-700 font-medium">
             Write a Review
           </button>
         </div>
@@ -271,9 +271,9 @@ export default function ProductInfo({
   const shippingAndReturns = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-linear-to-br from-green-50 to-green-100 rounded-lg p-6">
+        <div className="bg-linear-to-br from-teal-50 to-teal-100 rounded-lg p-6">
           <div className="flex items-center gap-3 mb-4">
-            <div className="h-12 w-12 bg-green-600 text-white rounded-full flex items-center justify-center">
+            <div className="h-12 w-12 bg-teal-600 text-white rounded-full flex items-center justify-center">
               <FaTruck className="text-2xl" />
             </div>
             <h4 className="font-semibold text-gray-900">
@@ -282,26 +282,26 @@ export default function ProductInfo({
           </div>
           <ul className="space-y-3">
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Free shipping on orders over $50</span>
             </li>
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Standard delivery: 3-5 business days</span>
             </li>
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Express delivery available (1-2 business days)</span>
             </li>
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Track your order in real-time</span>
             </li>
           </ul>
         </div>
-        <div className="bg-linear-to-br from-green-50 to-green-100 rounded-lg p-6">
+        <div className="bg-linear-to-br from-teal-50 to-teal-100 rounded-lg p-6">
           <div className="flex items-center gap-3 mb-4">
-            <div className="h-12 w-12 bg-green-600 text-white rounded-full flex items-center justify-center">
+            <div className="h-12 w-12 bg-teal-600 text-white rounded-full flex items-center justify-center">
               <FaArrowRotateLeft className="text-2xl" />
             </div>
             <h4 className="font-semibold text-gray-900">
@@ -310,19 +310,19 @@ export default function ProductInfo({
           </div>
           <ul className="space-y-3">
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>30-day hassle-free returns</span>
             </li>
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Full refund or exchange available</span>
             </li>
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Free return shipping on defective items</span>
             </li>
             <li className="flex items-start gap-2 text-sm text-gray-700">
-              <FaCheck className="text-green-600" />
+              <FaCheck className="text-teal-600" />
               <span>Easy online return process</span>
             </li>
           </ul>
@@ -353,19 +353,19 @@ export default function ProductInfo({
             <div className="flex overflow-x-auto scrollbar-hide">
               <button 
               onClick={()=> setActiveTab('first')}
-              className={`cursor-pointer flex items-center gap-2 px-6 py-4 font-medium whitespace-nowrap transition-all duration-200 ${activeTab === 'first' ? 'text-green-600 border-b-2 border-green-600 bg-green-50/50' : 'text-gray-600 hover:text-green-600 hover:bg-gray-50'}`}>
+              className={`cursor-pointer flex items-center gap-2 px-6 py-4 font-medium whitespace-nowrap transition-all duration-200 ${activeTab === 'first' ? 'text-teal-600 border-b-2 border-teal-600 bg-teal-50/50' : 'text-gray-600 hover:text-teal-600 hover:bg-gray-50'}`}>
                 <FaBox />
                 Product Details
               </button>
               <button 
               onClick={()=> setActiveTab('second')}
-              className={`cursor-pointer flex items-center gap-2 px-6 py-4 font-medium whitespace-nowrap transition-all duration-200 ${activeTab === 'second' ? 'text-green-600 border-b-2 border-green-600 bg-green-50/50' : 'text-gray-600 hover:text-green-600 hover:bg-gray-50'}`}>
+              className={`cursor-pointer flex items-center gap-2 px-6 py-4 font-medium whitespace-nowrap transition-all duration-200 ${activeTab === 'second' ? 'text-teal-600 border-b-2 border-teal-600 bg-teal-50/50' : 'text-gray-600 hover:text-teal-600 hover:bg-gray-50'}`}>
                 <FaStar />
                 Reviews ({product?.ratingsQuantity})
               </button>
               <button 
               onClick={()=> setActiveTab('third')}
-              className={`cursor-pointer flex items-center gap-2 px-6 py-4 font-medium whitespace-nowrap transition-all duration-200 ${activeTab === 'third' ? 'text-green-600 border-b-2 border-green-600 bg-green-50/50' : 'text-gray-600 hover:text-green-600 hover:bg-gray-50'}`}>
+              className={`cursor-pointer flex items-center gap-2 px-6 py-4 font-medium whitespace-nowrap transition-all duration-200 ${activeTab === 'third' ? 'text-teal-600 border-b-2 border-teal-600 bg-teal-50/50' : 'text-gray-600 hover:text-teal-600 hover:bg-gray-50'}`}>
                 <FaTruck />
                 Shipping &amp; Returns
               </button>

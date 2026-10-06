@@ -52,7 +52,7 @@ export default function CartItemCard({product}: {product: Product}) {
           key={product._id}
           className="relative bg-white rounded-2xl shadow-sm hover:shadow-md border border-gray-100 transition-all duration-300 overflow-hidden"
         >
-          {isPending && <div className="absolute bg-white/40 backdrop-blur-xs inset-0 z-10 flex justify-center items-center"><div className="bg-white flex items-center gap-2 shadow px-2 py-1 rounded-full"><Spinner className="text-green-600"/> Updating...</div></div>}
+          {isPending && <div className="absolute bg-white/40 backdrop-blur-xs inset-0 z-10 flex justify-center items-center"><div className="bg-white flex items-center gap-2 shadow px-2 py-1 rounded-full"><Spinner className="text-teal-600"/> Updating...</div></div>}
           <div className="p-4 sm:p-5">
             <div className="flex gap-4 sm:gap-6">
               <Link
@@ -74,7 +74,7 @@ export default function CartItemCard({product}: {product: Product}) {
                     Out of Stock
                   </div>
                 ) : (
-                  <div className="absolute -bottom-1 -right-1 bg-green-500 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
+                  <div className="absolute -bottom-1 -right-1 bg-teal-500 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
                     <FaCheck />
                     In Stock
                   </div>
@@ -86,12 +86,12 @@ export default function CartItemCard({product}: {product: Product}) {
                     className="group/title"
                     href={`/productDetails/${product.product._id}`}
                   >
-                    <h3 className="font-semibold text-gray-900 group-hover/title:text-green-600 transition-colors leading-relaxed text-base sm:text-lg">
+                    <h3 className="font-semibold text-gray-900 group-hover/title:text-teal-600 transition-colors leading-relaxed text-base sm:text-lg">
                       {product.product.title}
                     </h3>
                   </Link>
                   <div className="flex items-center gap-2 mt-2">
-                    <span className="inline-block px-2.5 py-1 bg-linear-to-r from-green-50 to-emerald-50 text-green-700 text-xs font-medium rounded-full">
+                    <span className="inline-block px-2.5 py-1 bg-linear-to-r from-teal-50 to-teal-50 text-teal-700 text-xs font-medium rounded-full">
                       {product.product.category.name}
                     </span>
                     <span className="text-xs text-gray-400">•</span>
@@ -102,7 +102,7 @@ export default function CartItemCard({product}: {product: Product}) {
                 </div>
                 <div className="mb-4">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-green-600 font-bold text-lg">
+                    <span className="text-teal-600 font-bold text-lg">
                       {product.price.toLocaleString()} EGP
                     </span>
                     <span className="text-xs text-gray-400">
@@ -113,7 +113,7 @@ export default function CartItemCard({product}: {product: Product}) {
                 <div
                   className="mt-auto flex flex-wrap items-center justify-between gap-4"
                   data-qb-rot="e800f34d-51c3-4fa7-97b7-4bdee061bc3d"
-                  data-qb-rot-theme="green"
+                  data-qb-rot-theme="teal"
                 >
                   <div className="flex items-center">
                     <div className="flex items-center bg-gray-50 rounded-xl p-1 border border-gray-200">
@@ -133,7 +133,7 @@ export default function CartItemCard({product}: {product: Product}) {
                       <span
                         className="w-12 text-center font-bold text-gray-900"
                         data-qb-rot="1c0d573c-0a6a-491e-b6c1-4fcbd46a8c5a"
-                        data-qb-rot-theme="green"
+                        data-qb-rot-theme="teal"
                       >
                         {product.count}
                       </span>
@@ -144,7 +144,7 @@ export default function CartItemCard({product}: {product: Product}) {
                             product.count + 1,
                           )
                         }
-                        className="h-8 w-8 rounded-lg bg-green-600 shadow-sm shadow-green-600/30 flex items-center justify-center text-white hover:bg-green-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+                        className="h-8 w-8 rounded-lg bg-teal-600 shadow-sm shadow-teal-600/30 flex items-center justify-center text-white hover:bg-teal-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
                         aria-label="Increase quantity"
                         disabled={
                           product.count === product.product.quantity

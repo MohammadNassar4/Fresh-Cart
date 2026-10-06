@@ -63,7 +63,7 @@ export default async function ProductDetails(props: {
           <ol className="flex items-center flex-wrap gap-1 text-sm">
             <li className="flex items-center">
               <Link
-                className="text-gray-500 hover:text-green-600 transition flex items-center gap-1.5"
+                className="text-gray-500 hover:text-teal-600 transition flex items-center gap-1.5"
                 href="/"
               >
                 <svg
@@ -85,7 +85,7 @@ export default async function ProductDetails(props: {
             </li>
             <li className="flex items-center">
               <Link
-                className="text-gray-500 hover:text-green-600 transition flex items-center gap-1.5"
+                className="text-gray-500 hover:text-teal-600 transition flex items-center gap-1.5"
                 href={`/categories/${data?.category?._id}`}
               >
                 {data?.category.name}
@@ -94,7 +94,7 @@ export default async function ProductDetails(props: {
             </li>
             <li className="flex items-center">
               <Link
-                className="text-gray-500 hover:text-green-600 transition flex items-center gap-1.5"
+                className="text-gray-500 hover:text-teal-600 transition flex items-center gap-1.5"
                 href={`/categories/${data?.category?._id}/${data?.subcategory[0]?._id}`}
               >
                 {data?.subcategory[0].name}
@@ -123,7 +123,7 @@ export default async function ProductDetails(props: {
               <div className="bg-white rounded-xl shadow-sm p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Link
-                    className="bg-green-50 text-green-700 text-xs px-3 py-1.5 rounded-full hover:bg-green-100 transition"
+                    className="bg-teal-50 text-teal-700 text-xs px-3 py-1.5 rounded-full hover:bg-teal-100 transition"
                     href={`/categories/${data?.category._id}`}
                   >
                     {data?.category.name}
@@ -185,8 +185,8 @@ export default async function ProductDetails(props: {
                   </div>
                 ) : (
                   <div className="flex items-center gap-2 mb-6">
-                    <span className="flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-green-50 text-green-700">
-                      <span className="w-2 h-2 rounded-full bg-green-500" />
+                    <span className="flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-teal-50 text-teal-700">
+                      <span className="w-2 h-2 rounded-full bg-teal-500" />
                       In Stock
                     </span>
                   </div>
@@ -201,7 +201,7 @@ export default async function ProductDetails(props: {
                   prodQuantity={data?.quantity || 0}
                 />
                 <div className="flex flex-col sm:flex-row gap-3 mb-6">
-                  <AddToCartBTN cls="cursor-pointer flex-1 text-white py-3.5 px-6 rounded-xl font-medium hover:bg-green-700 active:scale-[0.98] transition-all flex items-center justify-center gap-2 shadow-lg shadow-green-600/25 bg-green-600" child={ <><FaShoppingCart />
+                  <AddToCartBTN cls="cursor-pointer flex-1 text-white py-3.5 px-6 rounded-xl font-medium hover:bg-teal-700 active:scale-[0.98] transition-all flex items-center justify-center gap-2 shadow-lg shadow-teal-600/25 bg-teal-600" child={ <><FaShoppingCart />
                   Add to Cart</> } prodId={data?._id || ''} />
                   <button
                     id="buy-now"
@@ -212,17 +212,17 @@ export default async function ProductDetails(props: {
                   </button>
                 </div>
                 <div className="flex gap-3 mb-6">
-                  <AddToWishlistBTN cls="cursor-pointer flex-1 border-2 py-3 px-4 rounded-xl font-medium transition flex items-center justify-center gap-2 border-gray-200 text-gray-700 hover:border-green-300 hover:text-green-600" child={ <><FaRegHeart />
+                  <AddToWishlistBTN cls="cursor-pointer flex-1 border-2 py-3 px-4 rounded-xl font-medium transition flex items-center justify-center gap-2 border-gray-200 text-gray-700 hover:border-teal-300 hover:text-teal-600" child={ <><FaRegHeart />
                   Add to Wishlist</> } prodId={data?._id || ''} />
 
-                  <button className="cursor-pointer border-2 border-gray-200 text-gray-700 py-3 px-4 rounded-xl hover:border-green-300 hover:text-green-600 transition">
+                  <button className="cursor-pointer border-2 border-gray-200 text-gray-700 py-3 px-4 rounded-xl hover:border-teal-300 hover:text-teal-600 transition">
                     <FaShareAlt />
                   </button>
                 </div>
                 <div className="border-t border-gray-100 pt-6">
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="flex items-center gap-3">
-                      <div className="h-10 w-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center shrink-0">
+                      <div className="h-10 w-10 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center shrink-0">
                         <FaShippingFast className="text-2xl" />
                       </div>
                       <div>
@@ -233,7 +233,7 @@ export default async function ProductDetails(props: {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <div className="h-10 w-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center shrink-0">
+                      <div className="h-10 w-10 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center shrink-0">
                         <FaArrowRotateLeft className="text-2xl" />
                       </div>
                       <div>
@@ -244,7 +244,7 @@ export default async function ProductDetails(props: {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <div className="h-10 w-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center shrink-0">
+                      <div className="h-10 w-10 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center shrink-0">
                         <FaShieldAlt className="text-2xl" />
                       </div>
                       <div>

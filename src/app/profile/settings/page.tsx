@@ -81,8 +81,8 @@ export default function SettingsPage() {
         <div className="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
           <div className="p-6 sm:p-8 border-b border-gray-100">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center">
-                <FaUser className="text-2xl text-green-600" />
+              <div className="w-14 h-14 rounded-2xl bg-teal-100 flex items-center justify-center">
+                <FaUser className="text-2xl text-teal-600" />
               </div>
               <div>
                 <h3 className="font-bold text-gray-900">Profile Information</h3>
@@ -114,7 +114,7 @@ export default function SettingsPage() {
                         placeholder="Enter your name"
                         type="text"
                         autoComplete="off"
-                        className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all"
+                        className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition-all"
                         defaultValue={userData?.data?.user.name}
                       />
                       {fieldState.invalid && (
@@ -143,7 +143,7 @@ export default function SettingsPage() {
                         placeholder="Enter your email"
                         type="email"
                         autoComplete="off"
-                        className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all"
+                        className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition-all"
                         defaultValue={userData?.data?.user.email}
                       />
                       {fieldState.invalid && (
@@ -172,7 +172,7 @@ export default function SettingsPage() {
                         placeholder="01xxxxxxxxx"
                         type="tel"
                         autoComplete="off"
-                        className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all"
+                        className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition-all"
                       />
                       {fieldState.invalid && (
                         <FieldError errors={[fieldState.error]} />
@@ -184,7 +184,7 @@ export default function SettingsPage() {
               <div className="pt-4">
                 <button
                   type="submit"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors disabled:opacity-50 shadow-lg shadow-green-600/25 cursor-pointer"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors disabled:opacity-50 shadow-lg shadow-teal-600/25 cursor-pointer"
                 >
                   <FaFloppyDisk />
                   Save Changes
@@ -205,7 +205,7 @@ export default function SettingsPage() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-gray-500">Role</span>
-                <span className="px-3 py-1 rounded-lg bg-green-100 text-green-700 font-medium capitalize">
+                <span className="px-3 py-1 rounded-lg bg-teal-100 text-teal-700 font-medium capitalize">
                   user
                 </span>
               </div>
@@ -246,7 +246,7 @@ export default function SettingsPage() {
                           placeholder="Enter your current password"
                           type={isPassShown ? "text" : "password"}
                           autoComplete="off"
-                          className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all"
+                          className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition-all"
                         />
                         {fieldState.invalid && (
                           <FieldError errors={[fieldState.error]} />
@@ -283,7 +283,7 @@ export default function SettingsPage() {
                           placeholder="Enter your new password"
                           type={isPassShown ? "text" : "password"}
                           autoComplete="off"
-                          className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all"
+                          className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition-all"
                         />
                         {fieldState.invalid && (
                           <FieldError errors={[fieldState.error]} />
@@ -320,7 +320,7 @@ export default function SettingsPage() {
                           placeholder="Confirm your new password"
                           type={isPassShown ? "text" : "password"}
                           autoComplete="off"
-                          className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-green-500 focus:ring-2 focus:ring-green-500/20 outline-none transition-all"
+                          className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5  w-full px-4 rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition-all"
                         />
                         {fieldState.invalid && (
                           <FieldError errors={[fieldState.error]} />

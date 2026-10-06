@@ -41,7 +41,7 @@ export default function MobileNav() {
   return (
     <>
       <button
-        className="text-white cursor-pointer hover:bg-green-700 transition-all duration-200 bg-green-600 h-10 w-10 rounded-full font-semibold flex lg:hidden justify-center items-center"
+        className="text-white cursor-pointer hover:bg-teal-700 transition-all duration-200 bg-teal-600 h-10 w-10 rounded-full font-semibold flex lg:hidden justify-center items-center"
         onClick={() => setIsOpen(!isOpen)}
       >
         <svg
@@ -88,12 +88,12 @@ export default function MobileNav() {
             <input
               type="text"
               placeholder="Search products..."
-              className="w-full px-4 py-3 pr-12 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-sm"
+              className="w-full px-4 py-3 pr-12 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 text-sm"
               defaultValue=""
             />
             <button
               type="submit"
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-lg bg-green-600 text-white flex items-center justify-center"
+              className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-lg bg-teal-600 text-white flex items-center justify-center"
             >
               <FaMagnifyingGlass />
             </button>
@@ -103,28 +103,28 @@ export default function MobileNav() {
           <div className="space-y-1">
             <Link
               onClick={() => setIsOpen(false)}
-              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-teal-600 hover:bg-teal-50 transition-colors"
               href="/"
             >
               Home
             </Link>
             <Link
               onClick={() => setIsOpen(false)}
-              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-teal-600 hover:bg-teal-50 transition-colors"
               href="/products"
             >
               Shop
             </Link>
             <Link
               onClick={() => setIsOpen(false)}
-              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-teal-600 hover:bg-teal-50 transition-colors"
               href="/categories"
             >
               Categories
             </Link>
             <Link
               onClick={() => setIsOpen(false)}
-              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 transition-colors"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-gray-700 hover:text-teal-600 hover:bg-teal-50 transition-colors"
               href="/brands"
             >
               Brands
@@ -135,7 +135,7 @@ export default function MobileNav() {
         <div className="p-4 space-y-1">
           <Link
             onClick={() => setIsOpen(false)}
-            className="flex items-center justify-between px-4 py-3 rounded-xl hover:bg-green-50 transition-colors"
+            className="flex items-center justify-between px-4 py-3 rounded-xl hover:bg-teal-50 transition-colors"
             href="/wishlist"
             prefetch={false}
           >
@@ -149,24 +149,24 @@ export default function MobileNav() {
           </Link>
           <Link
             onClick={() => setIsOpen(false)}
-            className="flex items-center justify-between px-4 py-3 rounded-xl hover:bg-green-50 transition-colors"
+            className="flex items-center justify-between px-4 py-3 rounded-xl hover:bg-teal-50 transition-colors"
             href="/cart"
             prefetch={false}
           >
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-green-50 flex items-center justify-center">
-                <FaShoppingCart className="text-green-600" />
+              <div className="w-9 h-9 rounded-full bg-teal-50 flex items-center justify-center">
+                <FaShoppingCart className="text-teal-600" />
               </div>
               <span className="font-medium text-gray-700">Cart</span>
             </div>
-            {cartData && cartData?.numOfCartItems > 0 && <span className="bg-green-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">{cartData?.numOfCartItems}</span>}
+            {cartData && cartData?.numOfCartItems > 0 && <span className="bg-teal-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">{cartData?.numOfCartItems}</span>}
           </Link>
         </div>
         <div className="mx-4 border-t border-gray-100" />
         {status === "authenticated" ? (
           <div className="p-4 space-y-1">
             <Link
-              className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-green-50 transition-colors"
+              className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-teal-50 transition-colors"
               onClick={() => setIsOpen(false)}
               href="/profile"
             >
@@ -192,14 +192,14 @@ export default function MobileNav() {
             <div className="grid grid-cols-2 gap-3 pt-2">
               <Link
                 onClick={() => setIsOpen(false)}
-                className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors"
                 href="/login"
               >
                 Sign In
               </Link>
               <Link
                 onClick={() => setIsOpen(false)}
-                className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl border-2 border-green-600 text-green-600 font-semibold hover:bg-green-50 transition-colors"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl border-2 border-teal-600 text-teal-600 font-semibold hover:bg-teal-50 transition-colors"
                 href="/register"
               >
                 Sign Up
@@ -209,17 +209,17 @@ export default function MobileNav() {
         )}
         <Link
           onClick={() => setIsOpen(false)}
-          className="mx-4 mt-2 p-4 rounded-xl bg-gray-50 border border-gray-100 flex items-center gap-3 hover:bg-green-50 transition-colors"
+          className="mx-4 mt-2 p-4 rounded-xl bg-gray-50 border border-gray-100 flex items-center gap-3 hover:bg-teal-50 transition-colors"
           href="/contact"
         >
-          <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-            <FaHeadset className="text-green-600" />
+          <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center">
+            <FaHeadset className="text-teal-600" />
           </div>
           <div>
             <div className="text-sm font-semibold text-gray-700">
               Need Help?
             </div>
-            <div className="text-sm text-green-600">Contact Support</div>
+            <div className="text-sm text-teal-600">Contact Support</div>
           </div>
         </Link>
       </div>

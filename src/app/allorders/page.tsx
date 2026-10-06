@@ -19,8 +19,8 @@ export default function OrdersPage() {
   const loading = (
     <div className="min-h-[60vh] flex flex-col items-center justify-center">
       <div className="relative">
-        <div className="w-20 h-20 rounded-full bg-green-50 flex items-center justify-center">
-          <FaSpinner className="animate-spin text-4xl text-green-600" />
+        <div className="w-20 h-20 rounded-full bg-teal-50 flex items-center justify-center">
+          <FaSpinner className="animate-spin text-4xl text-teal-600" />
         </div>
       </div>
       <p className="text-gray-600 mt-6 font-medium">Loading your orders...</p>
@@ -35,7 +35,7 @@ export default function OrdersPage() {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
-            <Link className="hover:text-green-600 transition" href="/">
+            <Link className="hover:text-teal-600 transition" href="/">
               Home
             </Link>
             <span>/</span>
@@ -44,7 +44,7 @@ export default function OrdersPage() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold text-gray-900 flex items-center gap-3">
-                <span className="bg-linear-to-r from-green-600 to-green-700 text-white w-12 h-12 rounded-xl flex items-center justify-center">
+                <span className="bg-linear-to-r from-teal-600 to-teal-700 text-white w-12 h-12 rounded-xl flex items-center justify-center">
                   <FaCartShopping />
                 </span>
                 Shopping Cart

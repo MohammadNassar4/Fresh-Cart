@@ -58,7 +58,7 @@ export default function Register() {
       <div className="container xl:max-w-7xl mx-auto p-4 flex flex-col lg:flex-row gap-8">
         <div className="left-side lg:w-1/2">
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Welcome to <span className="text-green-600">FreshCart</span>
+            Welcome to <span className="text-teal-600">FreshCart</span>
           </h2>
           <p className="font-medium md:text-xl mb-4">
             Join thousands of happy customers who enjoy fresh groceries
@@ -66,8 +66,8 @@ export default function Register() {
           </p>
           <ul className="flex flex-col gap-6 mb-7">
             <li className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-green-200 flex items-center justify-center shrink-0">
-                <FaStar className="text-green-600 text-2xl" />
+              <div className="w-12 h-12 rounded-full bg-teal-200 flex items-center justify-center shrink-0">
+                <FaStar className="text-teal-600 text-2xl" />
               </div>
               <div className="content">
                 <div className="font-semibold text-lg">Premium Quality</div>
@@ -77,8 +77,8 @@ export default function Register() {
               </div>
             </li>
             <li className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-green-200 flex items-center justify-center shrink-0">
-                <FaTruckFast className="text-green-600 text-2xl" />
+              <div className="w-12 h-12 rounded-full bg-teal-200 flex items-center justify-center shrink-0">
+                <FaTruckFast className="text-teal-600 text-2xl" />
               </div>
               <div className="content">
                 <div className="font-semibold text-lg">Fast Delivery</div>
@@ -88,8 +88,8 @@ export default function Register() {
               </div>
             </li>
             <li className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-green-200 flex items-center justify-center shrink-0">
-                <FaShieldHalved className="text-green-600 text-2xl" />
+              <div className="w-12 h-12 rounded-full bg-teal-200 flex items-center justify-center shrink-0">
+                <FaShieldHalved className="text-teal-600 text-2xl" />
               </div>
               <div className="content">
                 <div className="font-semibold text-lg">Secure Shopping</div>
@@ -132,10 +132,10 @@ export default function Register() {
             Start your fresh journey with us today
           </div>
           <div className="relative flex flex-col sm:flex-row gap-2 py-8 border-b border-gray-300 mb-6 after:content-['or'] after:absolute after:-bottom-3 after:bg-white after:left-1/2 after:-translate-x-1/2 after:text-gray-500 after:px-3">
-            <button className="flex items-center gap-3 rounded-lg border border-gray-200 py-2 px-4 text-[#101828] font-semibold sm:w-1/2 justify-center cursor-pointer hover:border-green-400 hover:bg-green-50 transition-all duration-200">
+            <button className="flex items-center gap-3 rounded-lg border border-gray-200 py-2 px-4 text-[#101828] font-semibold sm:w-1/2 justify-center cursor-pointer hover:border-teal-400 hover:bg-teal-50 transition-all duration-200">
               <FaGoogle className="text-[#E7000B]" /> Google
             </button>
-            <button className="flex items-center gap-3 rounded-lg border border-gray-200 py-2 px-4 text-[#101828] font-semibold sm:w-1/2 justify-center cursor-pointer hover:border-green-400 hover:bg-green-50 transition-all duration-200">
+            <button className="flex items-center gap-3 rounded-lg border border-gray-200 py-2 px-4 text-[#101828] font-semibold sm:w-1/2 justify-center cursor-pointer hover:border-teal-400 hover:bg-teal-50 transition-all duration-200">
               <FaFacebook className="text-[#155DFC]" /> Facebook
             </button>
           </div>
@@ -159,7 +159,7 @@ export default function Register() {
                       placeholder="Ali"
                       autoComplete="off"
                       type="text"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -185,7 +185,7 @@ export default function Register() {
                       placeholder="john@example.com"
                       autoComplete="off"
                       type="email"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -211,7 +211,7 @@ export default function Register() {
                       placeholder="create a strong password"
                       autoComplete="off"
                       type="password"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -237,7 +237,7 @@ export default function Register() {
                       placeholder="confirm your password"
                       autoComplete="off"
                       type="password"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -263,7 +263,7 @@ export default function Register() {
                       placeholder="+1 234 567 8900"
                       autoComplete="off"
                       type="tel"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -275,11 +275,11 @@ export default function Register() {
                 <Checkbox id="terms-checkbox" name="terms-checkbox" required />
                 <Label htmlFor="terms-checkbox">
                   I agree to the{" "}
-                  <Link href="/terms" className="text-green-600">
+                  <Link href="/terms" className="text-teal-600">
                     Terms of Service
                   </Link>{" "}
                   and{" "}
-                  <Link href="/privacy" className="text-green-600">
+                  <Link href="/privacy" className="text-teal-600">
                     Privacy Policy
                   </Link>{" "}
                   *
@@ -289,7 +289,7 @@ export default function Register() {
                 <Button
                   disabled={isSubmitting}
                   type="submit"
-                  className="bg-green-600 rounded-lg w-full p-5.5 font-semibold text-white text-md hover:bg-green-700 cursor-pointer"
+                  className="bg-teal-600 rounded-lg w-full p-5.5 font-semibold text-white text-md hover:bg-teal-700 cursor-pointer"
                 >
                   <FaUserPlus /> Create My Account {isSubmitting && <Spinner />}
                 </Button>
@@ -297,7 +297,7 @@ export default function Register() {
             </FieldGroup>
             <div className="mt-8 text-center font-medium">
               Already have an account?{" "}
-              <Link href="/login" className="text-green-600">
+              <Link href="/login" className="text-teal-600">
                 Sign In
               </Link>
             </div>

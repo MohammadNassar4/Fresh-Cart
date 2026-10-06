@@ -10,7 +10,7 @@ export default function ProfileLayout({
   return (
     <div className="min-h-screen bg-gray-50/50">
       <header>
-        <div className="bg-linear-to-br from-green-600 via-green-500 to-green-400 text-white">
+        <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
           <div className="container mx-auto px-4 py-10 sm:py-12">
             <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
               <Link className="hover:text-white transition-colors duration-200" href="/">

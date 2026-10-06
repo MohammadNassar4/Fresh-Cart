@@ -27,14 +27,14 @@ export default function RecommendedProducts({
           >
             <div className="flex justify-between items-center mb-6">
               <div className="flex items-center gap-3">
-                <div className="h-8 w-1.5 bg-linear-to-b from-emerald-500 to-emerald-700 rounded-full" />
+                <div className="h-8 w-1.5 bg-linear-to-b from-teal-500 to-teal-700 rounded-full" />
                 <h2 className="text-2xl font-bold text-gray-800">
-                  You May Also <span className="text-emerald-600">Like</span>
+                  You May Also <span className="text-teal-600">Like</span>
                 </h2>
               </div>
               <div className="flex space-x-2">
-                <CarouselPrevious className="h-10 w-10 bg-gray-100 hover:bg-green-100 hover:text-green-600 cursor-pointer" />
-                <CarouselNext className="h-10 w-10 bg-gray-100 hover:bg-green-100 hover:text-green-600 cursor-pointer" />
+                <CarouselPrevious className="h-10 w-10 bg-gray-100 hover:bg-teal-100 hover:text-teal-600 cursor-pointer" />
+                <CarouselNext className="h-10 w-10 bg-gray-100 hover:bg-teal-100 hover:text-teal-600 cursor-pointer" />
               </div>
             </div>
 

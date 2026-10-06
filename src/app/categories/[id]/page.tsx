@@ -12,7 +12,7 @@ export default async function CategoryPage(props: { params: { id: string } }) {
   return (
     <>
       <div className="min-h-screen bg-gray-50/50">
-        <div className="bg-linear-to-br from-green-600 via-green-500 to-green-400 text-white">
+        <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
           <div className="container mx-auto px-4 py-12 sm:py-16">
             <nav className="flex items-center gap-2 text-sm text-white/70 mb-6">
               <Link className="hover:text-white transition-colors" href="/">
@@ -52,7 +52,7 @@ export default async function CategoryPage(props: { params: { id: string } }) {
 
         <div className="container mx-auto px-4 py-10">
           <Link
-            className="inline-flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors mb-6"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-teal-600 transition-colors mb-6"
             href="/categories"
           >
             <FaArrowLeft />
@@ -70,7 +70,7 @@ export default async function CategoryPage(props: { params: { id: string } }) {
                 This category doesn&apos;t have any subcategories yet.
               </p>
               <Link
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors"
                 href="/products?category=6439d5b90049ad0b52b90048"
               >
                 View All Products in Men&apos;s Fashion
@@ -87,16 +87,16 @@ export default async function CategoryPage(props: { params: { id: string } }) {
                 {subcategories?.map((subcategory) => (
                   <Link
                     key={subcategory._id}
-                    className="group bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-xl hover:border-green-200 transition-all duration-300 hover:-translate-y-1"
+                    className="group bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-xl hover:border-teal-200 transition-all duration-300 hover:-translate-y-1"
                     href={`/products?subcategory=${subcategory._id}`}
                   >
-                    <div className="w-14 h-14 rounded-xl bg-green-50 flex items-center justify-center mb-4 group-hover:bg-green-100 transition-colors">
-                      <FaFolderOpen className="text-2xl text-green-600" />
+                    <div className="w-14 h-14 rounded-xl bg-teal-50 flex items-center justify-center mb-4 group-hover:bg-teal-100 transition-colors">
+                      <FaFolderOpen className="text-2xl text-teal-600" />
                     </div>
-                    <h3 className="font-bold text-gray-900 text-lg group-hover:text-green-600 transition-colors mb-2">
+                    <h3 className="font-bold text-gray-900 text-lg group-hover:text-teal-600 transition-colors mb-2">
                       {subcategory.name}
                     </h3>
-                    <div className="flex items-center gap-2 text-sm text-green-600 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="flex items-center gap-2 text-sm text-teal-600 opacity-0 group-hover:opacity-100 transition-opacity">
                       <span>Browse Products</span>
                       <FaArrowRight />
                     </div>

@@ -8,7 +8,7 @@ export default function CategoryCard({ category }: { category: Category }) {
       className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition group cursor-pointer"
       href={`/categories/${category._id}`}
     >
-      <div className="h-20 w-20 overflow-hidden bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-green-200 transition">
+      <div className="h-20 w-20 overflow-hidden bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-teal-200 transition">
         <Image
           alt={category.name}
           width={300}

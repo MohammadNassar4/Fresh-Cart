@@ -15,7 +15,7 @@ import {
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-linear-to-b from-gray-50 to-white">
-      <div className="bg-linear-to-br from-green-600 via-green-500 to-green-400 text-white">
+      <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
         <div className="container mx-auto px-4 py-12 sm:py-16">
           <nav className="flex items-center gap-2 text-sm text-white/70 mb-8">
             <Link
@@ -28,7 +28,7 @@ export default function Privacy() {
             <span className="text-white font-medium">Privacy Policy</span>
           </nav>
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-            <div className="w-20 h-20 rounded-3xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-2xl shadow-green-900/30 ring-1 ring-white/30">
+            <div className="w-20 h-20 rounded-3xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-2xl shadow-teal-900/30 ring-1 ring-white/30">
               <FaShieldHalved className="text-4xl" />
             </div>
             <div>
@@ -43,16 +43,16 @@ export default function Privacy() {
         </div>
       </div>
       <div className="container mx-auto px-4 py-12">
-        <div className="bg-linear-to-r from-green-50 to-green-100/50 border border-green-200 rounded-3xl p-6 sm:p-8 mb-12 shadow-sm">
+        <div className="bg-linear-to-r from-teal-50 to-teal-100/50 border border-teal-200 rounded-3xl p-6 sm:p-8 mb-12 shadow-sm">
           <div className="flex items-start gap-4">
-            <div className="w-12 h-12 rounded-2xl bg-green-500 flex items-center justify-center shrink-0 shadow-lg shadow-green-500/25">
+            <div className="w-12 h-12 rounded-2xl bg-teal-500 flex items-center justify-center shrink-0 shadow-lg shadow-teal-500/25">
               <FaShieldHalved className="text-3xl text-white" />
             </div>
             <div>
-              <h2 className="text-lg font-bold text-green-900 mb-2">
+              <h2 className="text-lg font-bold text-teal-900 mb-2">
                 Your Privacy Matters
               </h2>
-              <p className="text-green-800 leading-relaxed">
+              <p className="text-teal-800 leading-relaxed">
                 This Privacy Policy describes how FreshCart collects, uses, and
                 protects your personal information when you use our services. We
                 are committed to ensuring that your privacy is protected.
@@ -61,13 +61,13 @@ export default function Privacy() {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaDatabase className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaDatabase className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 1
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">
@@ -77,7 +77,7 @@ export default function Privacy() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   1.1
                 </span>
                 <p className="text-sm">
@@ -86,7 +86,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   1.2
                 </span>
                 <p className="text-sm">
@@ -96,7 +96,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   1.3
                 </span>
                 <p className="text-sm">
@@ -105,7 +105,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   1.4
                 </span>
                 <p className="text-sm">
@@ -116,13 +116,13 @@ export default function Privacy() {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaUserShield className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaUserShield className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 2
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">
@@ -132,13 +132,13 @@ export default function Privacy() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   2.1
                 </span>
                 <p className="text-sm">To process and fulfill your orders.</p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   2.2
                 </span>
                 <p className="text-sm">
@@ -146,7 +146,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   2.3
                 </span>
                 <p className="text-sm">
@@ -154,7 +154,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   2.4
                 </span>
                 <p className="text-sm">
@@ -162,7 +162,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   2.5
                 </span>
                 <p className="text-sm">
@@ -171,13 +171,13 @@ export default function Privacy() {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaLock className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaLock className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 3
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">
@@ -187,7 +187,7 @@ export default function Privacy() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   3.1
                 </span>
                 <p className="text-sm">
@@ -196,7 +196,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   3.2
                 </span>
                 <p className="text-sm">
@@ -205,7 +205,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   3.3
                 </span>
                 <p className="text-sm">
@@ -214,7 +214,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   3.4
                 </span>
                 <p className="text-sm">
@@ -224,13 +224,13 @@ export default function Privacy() {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaShareNodes className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaShareNodes className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 4
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">
@@ -240,7 +240,7 @@ export default function Privacy() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   4.1
                 </span>
                 <p className="text-sm">
@@ -249,7 +249,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   4.2
                 </span>
                 <p className="text-sm">
@@ -258,7 +258,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   4.3
                 </span>
                 <p className="text-sm">
@@ -268,13 +268,13 @@ export default function Privacy() {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaUserCheck className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaUserCheck className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 5
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">Your Rights</h2>
@@ -282,7 +282,7 @@ export default function Privacy() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   5.1
                 </span>
                 <p className="text-sm">
@@ -291,7 +291,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   5.2
                 </span>
                 <p className="text-sm">
@@ -300,7 +300,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   5.3
                 </span>
                 <p className="text-sm">
@@ -309,7 +309,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   5.4
                 </span>
                 <p className="text-sm">
@@ -318,7 +318,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   5.5
                 </span>
                 <p className="text-sm">
@@ -328,13 +328,13 @@ export default function Privacy() {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaCookie className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaCookie className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 6
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">Cookies</h2>
@@ -342,7 +342,7 @@ export default function Privacy() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   6.1
                 </span>
                 <p className="text-sm">
@@ -351,7 +351,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   6.2
                 </span>
                 <p className="text-sm">
@@ -360,7 +360,7 @@ export default function Privacy() {
                 </p>
               </div>
               <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+                <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                   6.3
                 </span>
                 <p className="text-sm">
@@ -370,13 +370,13 @@ export default function Privacy() {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaClock className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaClock className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 7
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">
@@ -391,13 +391,13 @@ export default function Privacy() {
               upon request.
             </p>
           </section>
-          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+          <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
             <div className="flex items-start gap-4 mb-5">
-              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-                <FaEnvelope className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300" />
+              <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+                <FaEnvelope className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300" />
               </div>
               <div>
-                <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+                <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                   Article 8
                 </span>
                 <h2 className="text-xl font-bold text-gray-900">Contact Us</h2>
@@ -408,7 +408,7 @@ export default function Privacy() {
               rights, contact our Data Protection Officer at{" "}
               <Link
                 href="mailto:privacy@freshcart.com"
-                className="text-green-600 hover:text-green-700 font-semibold hover:underline"
+                className="text-teal-600 hover:text-teal-700 font-semibold hover:underline"
               >
                 privacy@freshcart.com
               </Link>
@@ -425,7 +425,7 @@ export default function Privacy() {
               Back to Home
             </Link>
             <Link
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-500 text-white hover:bg-green-600 font-medium shadow-lg shadow-green-500/25 transition-all duration-200"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-500 text-white hover:bg-teal-600 font-medium shadow-lg shadow-teal-500/25 transition-all duration-200"
               href="/terms"
             >
               View Terms of Service<span className="text-lg">→</span>

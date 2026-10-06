@@ -16,7 +16,7 @@ import {
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50/50">
-      <div className="bg-linear-to-br from-green-600 via-green-500 to-green-400 text-white">
+      <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
         <div className="container mx-auto px-4 py-10 sm:py-14">
           <nav className="flex items-center gap-2 text-sm text-white/70 mb-6 flex-wrap">
             <Link className="hover:text-white transition-colors" href="/">
@@ -45,8 +45,8 @@ export default function Contact() {
           <div className="lg:col-span-1 space-y-6">
             <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center shrink-0">
-                  <FaPhone className="text-green-600" />
+                <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center shrink-0">
+                  <FaPhone className="text-teal-600" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
@@ -55,7 +55,7 @@ export default function Contact() {
                   </p>
                   <Link
                     href="tel:+18001234567"
-                    className="text-green-600 font-medium hover:underline"
+                    className="text-teal-600 font-medium hover:underline"
                   >
                     +1 (800) 123-4567
                   </Link>
@@ -64,8 +64,8 @@ export default function Contact() {
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center shrink-0">
-                  <FaEnvelope className="text-green-600" />
+                <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center shrink-0">
+                  <FaEnvelope className="text-teal-600" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
@@ -74,7 +74,7 @@ export default function Contact() {
                   </p>
                   <Link
                     href="mailto:support@freshcart.com"
-                    className="text-green-600 font-medium hover:underline"
+                    className="text-teal-600 font-medium hover:underline"
                   >
                     support@freshcart.com
                   </Link>
@@ -83,8 +83,8 @@ export default function Contact() {
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center shrink-0">
-                  <FaLocationDot className="text-green-600" />
+                <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center shrink-0">
+                  <FaLocationDot className="text-teal-600" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Office</h3>
@@ -100,8 +100,8 @@ export default function Contact() {
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center shrink-0">
-                  <FaClock className="text-green-600" />
+                <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center shrink-0">
+                  <FaClock className="text-teal-600" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
@@ -122,25 +122,25 @@ export default function Contact() {
               <div className="flex items-center gap-3">
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaFacebookF />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaTwitter />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaLinkedin />
                 </Link>
@@ -150,8 +150,8 @@ export default function Contact() {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-2xl border border-gray-100 p-6 lg:p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center">
-                  <FaHeadset className="text-3xl text-green-600" />
+                <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center">
+                  <FaHeadset className="text-3xl text-teal-600" />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-gray-900">
@@ -175,7 +175,7 @@ export default function Contact() {
                       id="name"
                       required
                       placeholder="John Doe"
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all"
                       type="text"
                       defaultValue=""
                       name="name"
@@ -192,7 +192,7 @@ export default function Contact() {
                       id="email"
                       required
                       placeholder="john@example.com"
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all"
                       type="email"
                       defaultValue=""
                       name="email"
@@ -210,7 +210,7 @@ export default function Contact() {
                     id="subject"
                     name="subject"
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all bg-white"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all bg-white"
                   >
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
@@ -235,23 +235,23 @@ export default function Contact() {
                     required
                     rows={5}
                     placeholder="How can we help you?"
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all resize-none"
                     defaultValue={""}
                   />
                 </div>
                 <button
                   type="submit"
-                  className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors disabled:opacity-70 disabled:cursor-not-allowed shadow-sm shadow-green-600/20"
+                  className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors disabled:opacity-70 disabled:cursor-not-allowed shadow-sm shadow-teal-600/20"
                 >
                   <FaPaperPlane />
                   Send Message
                 </button>
               </form>
             </div>
-            <div className="mt-6 bg-green-50 rounded-2xl p-6 border border-green-100">
+            <div className="mt-6 bg-teal-50 rounded-2xl p-6 border border-teal-100">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shrink-0 shadow-sm">
-                  <FaCircleQuestion className="text-green-600 text-3xl" />
+                  <FaCircleQuestion className="text-teal-600 text-3xl" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
@@ -262,7 +262,7 @@ export default function Contact() {
                     about orders, shipping, returns, and more.
                   </p>
                   <Link
-                    className="text-green-600 font-medium text-sm hover:underline inline-flex items-center gap-1"
+                    className="text-teal-600 font-medium text-sm hover:underline inline-flex items-center gap-1"
                     href="/help"
                   >
                     Visit Help Center →

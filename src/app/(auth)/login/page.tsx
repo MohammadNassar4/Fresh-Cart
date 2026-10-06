@@ -71,7 +71,7 @@ export default function Login() {
               <Image
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
                 src={loginBanner}
-                alt="fresh vegetables and fruits shopping cart illustration, modern clean style, green theme"
+                alt="fresh vegetables and fruits shopping cart illustration, modern clean style, teal theme"
               />
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-gray-800">
@@ -83,15 +83,15 @@ export default function Login() {
                 </p>
                 <div className="flex items-center justify-center space-x-8 text-sm text-gray-500">
                   <div className="flex items-center">
-                    <FaTruck className="text-green-600 text-lg mr-2" />
+                    <FaTruck className="text-teal-600 text-lg mr-2" />
                     Free Delivery
                   </div>
                   <div className="flex items-center">
-                    <FaShieldHalved className="text-green-600 text-lg mr-2" />
+                    <FaShieldHalved className="text-teal-600 text-lg mr-2" />
                     Secure Payment
                   </div>
                   <div className="flex items-center">
-                    <FaClock className="text-green-600 text-lg mr-2" />
+                    <FaClock className="text-teal-600 text-lg mr-2" />
                     24/7 Support
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export default function Login() {
             <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
               <div className="text-center mb-8">
                 <div className="flex items-center justify-center mb-4">
-                  <span className="text-3xl font-bold text-green-600">
+                  <span className="text-3xl font-bold text-teal-600">
                     Fresh<span className="text-gray-800">Cart</span>
                   </span>
                 </div>
@@ -116,7 +116,7 @@ export default function Login() {
               <div className="space-y-3 mb-6">
                 <button
                   type="button"
-                  className="w-full flex items-center justify-center gap-3 py-3 px-4 border-2 border-gray-200 rounded-xl hover:border-green-300 hover:bg-green-50 transition-all duration-200 cursor-pointer"
+                  className="w-full flex items-center justify-center gap-3 py-3 px-4 border-2 border-gray-200 rounded-xl hover:border-teal-300 hover:bg-teal-50 transition-all duration-200 cursor-pointer"
                 >
                   <FaGoogle className="text-red-500 text-xl mr-2" />
                   <span className="font-medium text-gray-700">
@@ -125,7 +125,7 @@ export default function Login() {
                 </button>
                 <button
                   type="button"
-                  className="w-full flex items-center justify-center gap-3 py-3 px-4 border-2 border-gray-200 rounded-xl hover:border-green-300 hover:bg-green-50 transition-all duration-200 cursor-pointer"
+                  className="w-full flex items-center justify-center gap-3 py-3 px-4 border-2 border-gray-200 rounded-xl hover:border-teal-300 hover:bg-teal-50 transition-all duration-200 cursor-pointer"
                 >
                   <FaFacebook className="text-blue-600 text-xl mr-2" />
                   <span className="font-medium text-gray-700">
@@ -164,7 +164,7 @@ export default function Login() {
                             placeholder="Enter your email"
                             autoComplete="off"
                             type="email"
-                            className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 pl-9 rounded-md"
+                            className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 pl-9 rounded-md"
                           />
                           <FaEnvelope className="absolute top-1/2 -translate-y-1/2 left-3 text-gray-400" />
                         </div>
@@ -193,7 +193,7 @@ export default function Login() {
                             placeholder="Enter your password"
                             autoComplete="off"
                             type={isPassShown ? "text" : "password"}
-                            className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 pl-9 rounded-md"
+                            className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 pl-9 rounded-md"
                           />
                           <FaLock className="absolute top-1/2 -translate-y-1/2 left-3 text-gray-400" />
                           <FaEye
@@ -215,7 +215,7 @@ export default function Login() {
                     <Button
                       disabled={isSubmitting}
                       type="submit"
-                      className={`bg-green-600 rounded-lg w-full p-5.5 font-semibold text-white text-md hover:bg-green-700 cursor-pointer`}
+                      className={`bg-teal-600 rounded-lg w-full p-5.5 font-semibold text-white text-md hover:bg-teal-700 cursor-pointer`}
                     >
                       Sign In
                       {isSubmitting && <Spinner />}
@@ -227,7 +227,7 @@ export default function Login() {
                 <p className="text-gray-600">
                   New to FreshCart?
                   <Link
-                    className="text-green-600 hover:text-green-700 ms-2 font-semibold cursor-pointer"
+                    className="text-teal-600 hover:text-teal-700 ms-2 font-semibold cursor-pointer"
                     href="/register"
                   >
                     Create an account

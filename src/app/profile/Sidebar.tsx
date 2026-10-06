@@ -14,11 +14,11 @@ export default function Sidebar() {
         <ul className="p-2">
           <li>
             <Link
-              className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group ${pathName === "/profile/addresses" ? "bg-green-50 text-green-700" : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"}`}
+              className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group ${pathName === "/profile/addresses" ? "bg-teal-50 text-teal-700" : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"}`}
               href="/profile/addresses"
             >
               <div
-                className={`w-9 h-9 rounded-lg flex items-center justify-center transition-colors ${pathName === "/profile/addresses" ? "bg-green-500 text-white" : "bg-gray-100 text-gray-500 group-hover:bg-gray-200"}`}
+                className={`w-9 h-9 rounded-lg flex items-center justify-center transition-colors ${pathName === "/profile/addresses" ? "bg-teal-500 text-white" : "bg-gray-100 text-gray-500 group-hover:bg-gray-200"}`}
               >
                 <FaLocationDot />
               </div>
@@ -28,11 +28,11 @@ export default function Sidebar() {
           </li>
           <li>
             <Link
-              className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group ${pathName === "/profile/settings" ? "bg-green-50 text-green-700" : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"}`}
+              className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group ${pathName === "/profile/settings" ? "bg-teal-50 text-teal-700" : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"}`}
               href="/profile/settings"
             >
               <div
-                className={`w-9 h-9 rounded-lg flex items-center justify-center transition-colors ${pathName === "/profile/settings" ? "bg-green-500 text-white" : "bg-gray-100 text-gray-500 group-hover:bg-gray-200"}`}
+                className={`w-9 h-9 rounded-lg flex items-center justify-center transition-colors ${pathName === "/profile/settings" ? "bg-teal-500 text-white" : "bg-gray-100 text-gray-500 group-hover:bg-gray-200"}`}
               >
                 <FaGear />
               </div>

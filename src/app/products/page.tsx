@@ -61,7 +61,7 @@ export default async function Shop(props: {
         No products match your current filters.
       </p>
       <Link
-        className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors"
+        className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors"
         href="/products"
       >
         View All Products
@@ -71,7 +71,7 @@ export default async function Shop(props: {
 
   return (
     <div className="min-h-screen bg-gray-50/50">
-      <div className="bg-linear-to-br from-green-600 via-green-500 to-green-400 text-white">
+      <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
         <div className="container mx-auto px-4 py-10 sm:py-14">
           {subcategory ? (
             <nav className="flex items-center gap-2 text-sm text-white/70 mb-6 flex-wrap">
@@ -192,7 +192,7 @@ export default async function Shop(props: {
               Active Filters:
             </span>
             <Link
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-700 text-sm font-medium hover:bg-emerald-200 transition-colors"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-100 text-teal-700 text-sm font-medium hover:bg-teal-200 transition-colors"
               href="/products"
             >
               <FaFolderOpen />
@@ -215,7 +215,7 @@ export default async function Shop(props: {
               Active Filters:
             </span>
             <Link
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-medium hover:bg-violet-200 transition-colors"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-100 text-teal-700 text-sm font-medium hover:bg-teal-200 transition-colors"
               href="/products"
             >
               <FaTags />
@@ -238,7 +238,7 @@ export default async function Shop(props: {
               Active Filters:
             </span>
             <Link
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100 text-emerald-700 text-sm font-medium hover:bg-emerald-200 transition-colors"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-100 text-teal-700 text-sm font-medium hover:bg-teal-200 transition-colors"
               href="/products"
             >
               <FaLayerGroup />

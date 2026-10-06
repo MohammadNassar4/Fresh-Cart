@@ -47,7 +47,7 @@ export default function Home() {
               className="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300"
               style={{ opacity: 1, transform: "none" }}
             >
-              <div className="bg-emerald-50 text-emerald-500 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
+              <div className="bg-teal-50 text-teal-500 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
                 <FaShieldHalved className="text-2xl" />
               </div>
               <div>
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-6">
             <div
-              className="relative overflow-hidden rounded-2xl bg-linear-to-br from-emerald-500 to-emerald-700 p-8 text-white"
+              className="relative overflow-hidden rounded-2xl bg-linear-to-br from-teal-500 to-teal-700 p-8 text-white"
               style={{ opacity: 1, transform: "none" }}
             >
               <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2" />
@@ -123,7 +123,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Link
-                  className="inline-flex items-center gap-2 bg-white text-emerald-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
+                  className="inline-flex items-center gap-2 bg-white text-teal-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
                   href="/products"
                 >
                   Shop Now
@@ -172,9 +172,9 @@ export default function Home() {
       <section>
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-3 my-8">
-            <div className="h-8 w-1.5 bg-linear-to-b from-emerald-500 to-emerald-700 rounded-full" />
+            <div className="h-8 w-1.5 bg-linear-to-b from-teal-500 to-teal-700 rounded-full" />
             <h2 className="text-3xl font-bold text-gray-800">
-              Featured <span className="text-emerald-600">Products</span>
+              Featured <span className="text-teal-600">Products</span>
             </h2>
           </div>
           <FeaturedProducts />
@@ -186,19 +186,19 @@ export default function Home() {
         <div className="container px-4 mx-auto">
           <div className="relative">
             <div
-              className="bg-linear-to-br from-emerald-50 via-white to-teal-50 rounded-[2.5rem] border border-emerald-100/50 shadow-2xl shadow-emerald-500/10 overflow-hidden"
+              className="bg-linear-to-br from-teal-50 via-white to-teal-50 rounded-[2.5rem] border border-teal-100/50 shadow-2xl shadow-teal-500/10 overflow-hidden"
               style={{ opacity: 1, transform: "none" }}
             >
-              <div className="absolute top-0 right-0 w-80 h-80 bg-linear-to-br from-emerald-200/40 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 pointer-events-none" />
+              <div className="absolute top-0 right-0 w-80 h-80 bg-linear-to-br from-teal-200/40 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 pointer-events-none" />
               <div className="absolute bottom-0 left-0 w-64 h-64 bg-linear-to-tr from-teal-200/30 to-transparent rounded-full blur-3xl translate-y-1/2 -translate-x-1/4 pointer-events-none" />
               <div className="relative grid lg:grid-cols-5 gap-8 p-8 lg:p-14">
                 <div className="lg:col-span-3 space-y-6">
                   <div className="flex items-center gap-4">
-                    <div className="w-14 h-14 bg-linear-to-br from-emerald-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-500/30">
+                    <div className="w-14 h-14 bg-linear-to-br from-teal-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg shadow-teal-500/30">
                       <FaEnvelope className="text-white  text-2xl" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-semibold text-emerald-600 uppercase tracking-wide">
+                      <h3 className="text-sm font-semibold text-teal-600 uppercase tracking-wide">
                         Newsletter
                       </h3>
                       <p className="text-xs text-gray-500">
@@ -209,7 +209,7 @@ export default function Home() {
                   <div>
                     <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-snug">
                       Get the Freshest Updates {/* */}{" "}
-                      <span className="text-emerald-600"> Delivered Free</span>
+                      <span className="text-teal-600"> Delivered Free</span>
                     </h2>
                     <p className="text-gray-500 mt-3 text-lg">
                       Weekly recipes, seasonal offers &amp; exclusive member
@@ -217,25 +217,25 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-3">
-                    <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm border border-emerald-100 px-4 py-2.5 rounded-full shadow-sm">
-                      <div className="w-7 h-7 bg-emerald-100 rounded-full flex items-center justify-center">
-                        <FaLeaf className="text-emerald-600" />
+                    <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm border border-teal-100 px-4 py-2.5 rounded-full shadow-sm">
+                      <div className="w-7 h-7 bg-teal-100 rounded-full flex items-center justify-center">
+                        <FaLeaf className="text-teal-600" />
                       </div>
                       <span className="text-sm font-medium text-gray-700">
                         Fresh Picks Weekly
                       </span>
                     </div>
-                    <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm border border-emerald-100 px-4 py-2.5 rounded-full shadow-sm">
-                      <div className="w-7 h-7 bg-emerald-100 rounded-full flex items-center justify-center">
-                        <FaTruck className="text-emerald-600" />
+                    <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm border border-teal-100 px-4 py-2.5 rounded-full shadow-sm">
+                      <div className="w-7 h-7 bg-teal-100 rounded-full flex items-center justify-center">
+                        <FaTruck className="text-teal-600" />
                       </div>
                       <span className="text-sm font-medium text-gray-700">
                         Free Delivery Codes
                       </span>
                     </div>
-                    <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm border border-emerald-100 px-4 py-2.5 rounded-full shadow-sm">
-                      <div className="w-7 h-7 bg-emerald-100 rounded-full flex items-center justify-center">
-                        <FaTag className="text-emerald-600" />
+                    <div className="flex items-center gap-2.5 bg-white/80 backdrop-blur-sm border border-teal-100 px-4 py-2.5 rounded-full shadow-sm">
+                      <div className="w-7 h-7 bg-teal-100 rounded-full flex items-center justify-center">
+                        <FaTag className="text-teal-600" />
                       </div>
                       <span className="text-sm font-medium text-gray-700">
                         Members-Only Deals
@@ -248,14 +248,14 @@ export default function Home() {
                         <input
                           type="email"
                           placeholder="you@example.com"
-                          className="w-full pl-5 pr-5 py-4 bg-white border-2 border-gray-200 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/10 transition-all text-base shadow-sm"
+                          className="w-full pl-5 pr-5 py-4 bg-white border-2 border-gray-200 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10 transition-all text-base shadow-sm"
                           required
                           defaultValue=""
                         />
                       </div>
                       <button
                         type="submit"
-                        className="group flex items-center justify-center gap-3 px-8 py-4 rounded-2xl font-semibold text-base transition-all duration-300 shadow-lg bg-linear-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-teal-500 text-white shadow-emerald-500/30 hover:shadow-emerald-500/40 hover:scale-[1.02] cursor-pointer"
+                        className="group flex items-center justify-center gap-3 px-8 py-4 rounded-2xl font-semibold text-base transition-all duration-300 shadow-lg bg-linear-to-r from-teal-600 to-teal-500 hover:from-teal-500 hover:to-teal-500 text-white shadow-teal-500/30 hover:shadow-teal-500/40 hover:scale-[1.02] cursor-pointer"
                       >
                         <span>Subscribe</span>
                         <FaArrowRight className="text-sm group-hover:translate-x-1 transition-transform duration-200" />
@@ -266,13 +266,13 @@ export default function Home() {
                     </p>
                   </form>
                 </div>
-                <div className="lg:col-span-2 lg:border-l lg:border-emerald-100 lg:pl-8">
+                <div className="lg:col-span-2 lg:border-l lg:border-teal-100 lg:pl-8">
                   <div className="h-full flex flex-col justify-center">
                     <div className="bg-linear-to-br from-gray-900 to-gray-800 rounded-3xl p-8 text-white relative overflow-hidden">
-                      <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/20 rounded-full blur-2xl" />
+                      <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/20 rounded-full blur-2xl" />
                       <div className="absolute bottom-0 left-0 w-24 h-24 bg-teal-500/20 rounded-full blur-2xl" />
                       <div className="relative space-y-5">
-                        <div className="inline-block bg-emerald-500/20 text-emerald-400 text-xs font-semibold px-3 py-1.5 rounded-full border border-emerald-500/30">
+                        <div className="inline-block bg-teal-500/20 text-teal-400 text-xs font-semibold px-3 py-1.5 rounded-full border border-teal-500/30">
                           📱 MOBILE APP
                         </div>
                         <h3 className="text-2xl font-bold leading-tight">

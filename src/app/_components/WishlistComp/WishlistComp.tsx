@@ -64,7 +64,7 @@ export default function WishlistComp() {
         </p>
         <div className="flex flex-col gap-3">
           <Link
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors"
             href="/products"
           >
             Browse Products
@@ -87,7 +87,7 @@ export default function WishlistComp() {
             <div className="container mx-auto px-4 py-8">
               <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
                 <Link
-                  className="hover:text-green-600 transition-colors"
+                  className="hover:text-teal-600 transition-colors"
                   href="/"
                 >
                   Home
@@ -142,7 +142,7 @@ export default function WishlistComp() {
                       </Link>
                       <div className="min-w-0">
                         <Link
-                          className="font-medium text-gray-900 hover:text-green-600 transition-colors line-clamp-2"
+                          className="font-medium text-gray-900 hover:text-teal-600 transition-colors line-clamp-2"
                           href={`/productDetails/${item._id}`}
                         >
                           {item.title}
@@ -167,8 +167,8 @@ export default function WishlistComp() {
                         Status:
                       </span>
                       {item.quantity !== 0 ? (
-                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-green-50 text-green-700">
-                          <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-teal-50 text-teal-700">
+                          <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
                           In Stock
                         </span>
                       ) : (
@@ -183,7 +183,7 @@ export default function WishlistComp() {
                         (cartItem) => cartItem.product._id !== item._id,
                       ) && (
                         <AddToCatBTN
-                          cls="flex-1 md:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium transition-all bg-green-600 text-white hover:bg-green-700 cursor-pointer"
+                          cls="flex-1 md:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium transition-all bg-teal-600 text-white hover:bg-teal-700 cursor-pointer"
                           child={
                             <>
                               <FaCartShopping />
@@ -203,7 +203,7 @@ export default function WishlistComp() {
                           href="/cart"
                           prefetch={false}
                         >
-                          <FaCheck className="text-green-600" />
+                          <FaCheck className="text-teal-600" />
                           <span className="md:hidden lg:inline">View Cart</span>
                         </Link>
                       )}
@@ -221,7 +221,7 @@ export default function WishlistComp() {
             </div>
             <div className="mt-8 flex items-center justify-between">
               <Link
-                className="text-gray-500 hover:text-green-600 text-sm font-medium transition-colors"
+                className="text-gray-500 hover:text-teal-600 text-sm font-medium transition-colors"
                 href="/products"
               >
                 ← Continue Shopping

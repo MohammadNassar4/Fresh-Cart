@@ -20,12 +20,12 @@ import { FaArrowRotateLeft } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <div className="bg-green-50 border-y border-green-100">
+      <div className="bg-teal-50 border-y border-teal-100">
         <div className="container mx-auto px-4 py-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaTruckMoving size="24" className="text-green-600" />
+              <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center shrink-0">
+                <FaTruckMoving size="24" className="text-teal-600" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -35,8 +35,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaArrowRotateLeft size="24" className="text-green-600" />
+              <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center shrink-0">
+                <FaArrowRotateLeft size="24" className="text-teal-600" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -46,8 +46,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaShieldAlt size="24" className="text-green-600" />
+              <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center shrink-0">
+                <FaShieldAlt size="24" className="text-teal-600" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -57,8 +57,8 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
-                <FaHeadset size="24" className="text-green-600" />
+              <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center shrink-0">
+                <FaHeadset size="24" className="text-teal-600" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 text-sm">
@@ -96,45 +96,45 @@ export default function Footer() {
               <div className="space-y-3 mb-6">
                 <Link
                   href="tel:+18001234567"
-                  className="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors text-sm"
+                  className="flex items-center gap-3 text-gray-400 hover:text-teal-400 transition-colors text-sm"
                 >
-                  <FaPhoneAlt className="text-green-600" />
+                  <FaPhoneAlt className="text-teal-600" />
                   <span>+1 (800) 123-4567</span>
                 </Link>
                 <Link
                   href="mailto:support@freshcart.com"
-                  className="flex items-center gap-3 text-gray-400 hover:text-green-400 transition-colors text-sm"
+                  className="flex items-center gap-3 text-gray-400 hover:text-teal-400 transition-colors text-sm"
                 >
-                  <FaEnvelope className="text-green-600" />
+                  <FaEnvelope className="text-teal-600" />
                   <span>support@freshcart.com</span>
                 </Link>
                 <div className="flex items-start gap-3 text-gray-400 text-sm">
-                  <FaMapMarkerAlt className="text-green-600" />
+                  <FaMapMarkerAlt className="text-teal-600" />
                   <span>123 Commerce Street, New York, NY 10001</span>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaFacebookF />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaTwitter />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
                   href="#"
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-teal-600 hover:text-white transition-colors"
                 >
                   <FaYoutube />
                 </Link>
@@ -145,7 +145,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/products"
                   >
                     All Products
@@ -153,7 +153,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/categories"
                   >
                     Categories
@@ -161,7 +161,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/brands"
                   >
                     Brands
@@ -169,7 +169,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/products?category=6439d2d167d9aa4ca970649f"
                   >
                     Electronics
@@ -177,7 +177,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/products?category=6439d5b90049ad0b52b90048"
                   >
                     Men&apos;s Fashion
@@ -185,7 +185,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/products?category=6439d58a0049ad0b52b9003f"
                   >
                     Women&apos;s Fashion
@@ -198,7 +198,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/profile"
                   >
                     My Account
@@ -206,7 +206,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/allorders"
                   >
                     Order History
@@ -214,7 +214,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/wishlist"
                   >
                     Wishlist
@@ -222,7 +222,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/cart"
                   >
                     Shopping Cart
@@ -230,7 +230,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/login"
                   >
                     Sign In
@@ -238,7 +238,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/register"
                   >
                     Create Account
@@ -251,7 +251,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/contact"
                   >
                     Contact Us
@@ -259,7 +259,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/help"
                   >
                     Help Center
@@ -267,7 +267,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/shipping"
                   >
                     Shipping Info
@@ -275,7 +275,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/returns"
                   >
                     Returns &amp; Refunds
@@ -283,7 +283,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/track-order"
                   >
                     Track Order
@@ -296,7 +296,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/privacy"
                   >
                     Privacy Policy
@@ -304,7 +304,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/terms"
                   >
                     Terms of Service
@@ -312,7 +312,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    className="text-gray-400 hover:text-green-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
                     href="/cookies"
                   >
                     Cookie Policy

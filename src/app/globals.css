@@ -131,9 +131,9 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  @apply text-green-500 bg-white rounded-full p-3  opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-200 mx-4!;
+  @apply text-teal-500 bg-white rounded-full p-3  opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-200 mx-4!;
 }
 .swiper-button-prev svg,
 .swiper-button-next svg {
-  @apply text-green-500;
+  @apply text-teal-500;
 }

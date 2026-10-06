@@ -26,7 +26,7 @@ export default function ProductQuantity({
                 setQuantity(quantity - 1);
               }}
               id="decrease-qty"
-              className="cursor-pointer px-4 py-3 text-gray-600 hover:bg-gray-100 hover:text-green-600 transition disabled:opacity-50"
+              className="cursor-pointer px-4 py-3 text-gray-600 hover:bg-gray-100 hover:text-teal-600 transition disabled:opacity-50"
               disabled={quantity < 2}
             >
               <FiMinus className="text-xl" />
@@ -45,7 +45,7 @@ export default function ProductQuantity({
                 setQuantity(quantity + 1);
               }}
               id="increase-qty"
-              className="cursor-pointer px-4 py-3 text-gray-600 hover:bg-gray-100 hover:text-green-600 transition disabled:opacity-50"
+              className="cursor-pointer px-4 py-3 text-gray-600 hover:bg-gray-100 hover:text-teal-600 transition disabled:opacity-50"
               disabled={quantity === prodQuantity}
             >
               <FiPlus className="text-xl" />
@@ -59,7 +59,7 @@ export default function ProductQuantity({
       <div className="bg-gray-50 rounded-lg p-4 mb-6">
         <div className="flex justify-between items-center">
           <span className="text-gray-600">Total Price:</span>
-          <span className="text-2xl font-bold text-green-600">
+          <span className="text-2xl font-bold text-teal-600">
             {totalPrice.toFixed(2)} EGP
           </span>
         </div>

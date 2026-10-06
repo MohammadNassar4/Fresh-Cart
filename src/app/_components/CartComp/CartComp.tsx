@@ -44,8 +44,8 @@ export default function CartComp() {
   const loading = (
     <div className="min-h-[60vh] flex flex-col items-center justify-center">
       <div className="relative">
-        <div className="w-20 h-20 rounded-full bg-green-50 flex items-center justify-center">
-          <FaSpinner className="animate-spin text-4xl text-green-600" />
+        <div className="w-20 h-20 rounded-full bg-teal-50 flex items-center justify-center">
+          <FaSpinner className="animate-spin text-4xl text-teal-600" />
         </div>
       </div>
       <p className="text-gray-600 mt-6 font-medium">Loading your cart...</p>
@@ -73,7 +73,7 @@ export default function CartComp() {
           Start exploring our products!
         </p>
         <Link
-          className="inline-flex items-center gap-2 bg-linear-to-r from-green-600 to-green-700 text-white py-3.5 px-8 rounded-xl font-semibold hover:from-green-700 hover:to-green-800 transition-all shadow-lg shadow-green-600/20 active:scale-[0.98]"
+          className="inline-flex items-center gap-2 bg-linear-to-r from-teal-600 to-teal-700 text-white py-3.5 px-8 rounded-xl font-semibold hover:from-teal-700 hover:to-teal-800 transition-all shadow-lg shadow-teal-600/20 active:scale-[0.98]"
           href="/products"
         >
           Start Shopping
@@ -83,25 +83,25 @@ export default function CartComp() {
           <p className="text-sm text-gray-400 mb-4">Popular Categories</p>
           <div className="flex flex-wrap justify-center gap-2">
             <Link
-              className="px-4 py-2 bg-gray-50 hover:bg-green-50 hover:text-green-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
+              className="px-4 py-2 bg-gray-50 hover:bg-teal-50 hover:text-teal-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
               href="/products?category=6439d2d167d9aa4ca970649f"
             >
               Electronics
             </Link>
             <Link
-              className="px-4 py-2 bg-gray-50 hover:bg-green-50 hover:text-green-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
+              className="px-4 py-2 bg-gray-50 hover:bg-teal-50 hover:text-teal-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
               href="/products?category=6439d5b90049ad0b52b90048"
             >
               Men&apos;s Fashion
             </Link>
             <Link
-              className="px-4 py-2 bg-gray-50 hover:bg-green-50 hover:text-green-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
+              className="px-4 py-2 bg-gray-50 hover:bg-teal-50 hover:text-teal-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
               href="/"
             >
               Home
             </Link>
             <Link
-              className="px-4 py-2 bg-gray-50 hover:bg-green-50 hover:text-green-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
+              className="px-4 py-2 bg-gray-50 hover:bg-teal-50 hover:text-teal-600 text-gray-600 rounded-full text-sm font-medium transition-colors"
               href="/products?category=6439d30b67d9aa4ca97064b1"
             >
               Beauty
@@ -119,7 +119,7 @@ export default function CartComp() {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <nav className="flex items-center gap-2 text-sm text-gray-500 mb-4">
-            <Link className="hover:text-green-600 transition" href="/">
+            <Link className="hover:text-teal-600 transition" href="/">
               Home
             </Link>
             <span>/</span>
@@ -128,14 +128,14 @@ export default function CartComp() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold text-gray-900 flex items-center gap-3">
-                <span className="bg-linear-to-r from-green-600 to-green-700 text-white w-12 h-12 rounded-xl flex items-center justify-center">
+                <span className="bg-linear-to-r from-teal-600 to-teal-700 text-white w-12 h-12 rounded-xl flex items-center justify-center">
                   <FaCartShopping />
                 </span>
                 Shopping Cart
               </h1>
               <p className="text-gray-500 mt-2">
                 You have{" "}
-                <span className="font-semibold text-green-600">
+                <span className="font-semibold text-teal-600">
                   {data?.numOfCartItems} items
                 </span>{" "}
                 in your cart
@@ -153,7 +153,7 @@ export default function CartComp() {
 
               <div className="mt-6 pt-6 border-t border-gray-200 flex items-center justify-between">
                 <Link
-                  className="text-green-600 hover:text-green-700 font-medium text-sm flex items-center gap-2"
+                  className="text-teal-600 hover:text-teal-700 font-medium text-sm flex items-center gap-2"
                   href="/"
                 >
                   <span>←</span> Continue Shopping
@@ -170,25 +170,25 @@ export default function CartComp() {
           </div>
           <div className="lg:col-span-1">
             <div className="bg-white rounded-2xl border border-gray-100 overflow-hidden sticky top-24 shadow-sm">
-              <div className="bg-linear-to-r from-green-600 to-green-700 px-6 py-4">
+              <div className="bg-linear-to-r from-teal-600 to-teal-700 px-6 py-4">
                 <h2 className="text-lg font-bold text-white flex items-center gap-2">
                   <FaBagShopping />
                   Order Summary
                 </h2>
-                <p className="text-green-100 text-sm mt-1">
+                <p className="text-teal-100 text-sm mt-1">
                   {data?.numOfCartItems} items in your cart
                 </p>
               </div>
               <div className="p-6 space-y-5">
-                <div className="bg-linear-to-r from-green-50 to-emerald-50 rounded-xl p-4 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <FaTruck className="text-green-600 text-xl" />
+                <div className="bg-linear-to-r from-teal-50 to-teal-50 rounded-xl p-4 flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center">
+                    <FaTruck className="text-teal-600 text-xl" />
                   </div>
                   <div>
-                    <p className="font-semibold text-green-700">
+                    <p className="font-semibold text-teal-700">
                       Free Shipping!
                     </p>
-                    <p className="text-sm text-green-600">
+                    <p className="text-sm text-teal-600">
                       You qualify for free delivery
                     </p>
                   </div>
@@ -202,7 +202,7 @@ export default function CartComp() {
                   </div>
                   <div className="flex justify-between text-gray-600">
                     <span>Shipping</span>
-                    <span className="font-medium text-green-600">FREE</span>
+                    <span className="font-medium text-teal-600">FREE</span>
                   </div>
                   <div className="border-t border-dashed border-gray-200 pt-3 mt-3">
                     <div className="flex justify-between items-baseline">
@@ -216,12 +216,12 @@ export default function CartComp() {
                     </div>
                   </div>
                 </div>
-                <button className="w-full flex items-center justify-center gap-2 py-3 border border-dashed border-gray-300 rounded-xl text-gray-600 hover:border-green-400 hover:text-green-600 hover:bg-green-50/50 transition-all cursor-pointer">
+                <button className="w-full flex items-center justify-center gap-2 py-3 border border-dashed border-gray-300 rounded-xl text-gray-600 hover:border-teal-400 hover:text-teal-600 hover:bg-teal-50/50 transition-all cursor-pointer">
                   <FaTag />
                   <span className="text-sm font-medium">Apply Promo Code</span>
                 </button>
                 <Link
-                  className="w-full bg-linear-to-r from-green-600 to-green-700 text-white py-4 px-6 rounded-xl font-semibold hover:from-green-700 hover:to-green-800 transition-all flex items-center justify-center gap-3 shadow-lg shadow-green-600/20 active:scale-[0.98]"
+                  className="w-full bg-linear-to-r from-teal-600 to-teal-700 text-white py-4 px-6 rounded-xl font-semibold hover:from-teal-700 hover:to-teal-800 transition-all flex items-center justify-center gap-3 shadow-lg shadow-teal-600/20 active:scale-[0.98]"
                   href={`/checkout/${data?.cartId}`}
                 >
                   <FaLock />
@@ -229,7 +229,7 @@ export default function CartComp() {
                 </Link>
                 <div className="flex items-center justify-center gap-4 py-2">
                   <div className="flex items-center gap-1.5 text-xs text-gray-500">
-                    <FaShieldHalved className="text-green-500 text-lg" />
+                    <FaShieldHalved className="text-teal-500 text-lg" />
                     <span>Secure Payment</span>
                   </div>
                   <div className="w-px h-4 bg-gray-200" />
@@ -239,7 +239,7 @@ export default function CartComp() {
                   </div>
                 </div>
                 <Link
-                  className="block text-center text-green-600 hover:text-green-700 text-sm font-medium py-2"
+                  className="block text-center text-teal-600 hover:text-teal-700 text-sm font-medium py-2"
                   href="/"
                 >
                   ← Continue Shopping

@@ -80,7 +80,7 @@ export default function AddAddressDialog({
                     placeholder="e.g. Home, Work"
                     type="text"
                     autoComplete="off"
-                    className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                    className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -105,7 +105,7 @@ export default function AddAddressDialog({
                     aria-invalid={fieldState.invalid}
                     placeholder="Street, building, apartment, etc."
                     autoComplete="off"
-                    className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-2 rounded-md"
+                    className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-2 rounded-md"
                   />
                   {fieldState.invalid && (
                     <FieldError errors={[fieldState.error]} />
@@ -133,7 +133,7 @@ export default function AddAddressDialog({
                       placeholder="01xxxxxxxxx"
                       type="tel"
                       autoComplete="off"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -162,7 +162,7 @@ export default function AddAddressDialog({
                       placeholder="Cairo"
                       type="text"
                       autoComplete="off"
-                      className="focus-visible:ring-green-200 focus-visible:ring-2 focus-visible:border-green-300 py-5 rounded-md"
+                      className="focus-visible:ring-teal-200 focus-visible:ring-2 focus-visible:border-teal-300 py-5 rounded-md"
                     />
                     {fieldState.invalid && (
                       <FieldError errors={[fieldState.error]} />
@@ -182,7 +182,7 @@ export default function AddAddressDialog({
             />
             <button
               type="submit"
-              className="flex-1 py-3 px-6 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors disabled:opacity-50 shadow-lg shadow-green-600/25 cursor-pointer"
+              className="flex-1 py-3 px-6 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors disabled:opacity-50 shadow-lg shadow-teal-600/25 cursor-pointer"
             >
               Add Address
             </button>

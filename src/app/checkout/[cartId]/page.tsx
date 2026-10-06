@@ -11,11 +11,11 @@ export default async function Checkout(props: { params: { cartId: string } }) {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
-            <Link className="hover:text-green-600 transition" href="/">
+            <Link className="hover:text-teal-600 transition" href="/">
               Home
             </Link>
             <span className="text-gray-300">/</span>
-            <Link className="hover:text-green-600 transition" href="/cart">
+            <Link className="hover:text-teal-600 transition" href="/cart">
               Cart
             </Link>
             <span className="text-gray-300">/</span>
@@ -24,7 +24,7 @@ export default async function Checkout(props: { params: { cartId: string } }) {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <h1 className="text-3xl font-bold text-gray-900 flex items-center gap-3">
-                <span className="bg-linear-to-br from-green-600 to-green-700 text-white w-12 h-12 rounded-xl flex items-center justify-center shadow-lg shadow-green-600/20">
+                <span className="bg-linear-to-br from-teal-600 to-teal-700 text-white w-12 h-12 rounded-xl flex items-center justify-center shadow-lg shadow-teal-600/20">
                   <FaReceipt />
                 </span>
                 Complete Your Order
@@ -34,7 +34,7 @@ export default async function Checkout(props: { params: { cartId: string } }) {
               </p>
             </div>
             <Link
-              className="text-green-600 hover:text-green-700 font-medium flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-green-50 transition-all"
+              className="text-teal-600 hover:text-teal-700 font-medium flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-teal-50 transition-all"
               href="/cart"
             >
               <FaArrowLeft />

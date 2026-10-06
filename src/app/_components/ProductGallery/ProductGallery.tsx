@@ -42,7 +42,7 @@ export default function ProductGallery({
             aria-current={activeIndex === index}
             className={`relative shrink-0 w-16 h-16 rounded-md overflow-hidden border-2 transition-colors ${
               activeIndex === index
-                ? "border-green-600"
+                ? "border-teal-600"
                 : "border-transparent hover:border-gray-300"
             }`}
           >

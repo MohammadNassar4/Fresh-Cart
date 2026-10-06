@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRotateLeft, FaCreditCard, FaEnvelope, FaFileContrac
 export default function Terms() {
   return (
   <div className="min-h-screen bg-linear-to-b from-gray-50 to-white">
-    <div className="bg-linear-to-br from-green-600 via-green-500 to-green-400 text-white">
+    <div className="bg-linear-to-br from-teal-600 via-teal-500 to-teal-400 text-white">
       <div className="container mx-auto px-4 py-12 sm:py-16">
         <nav className="flex items-center gap-2 text-sm text-white/70 mb-8">
           <Link className="hover:text-white transition-colors duration-200" href="/">
@@ -14,7 +14,7 @@ export default function Terms() {
           <span className="text-white font-medium">Terms of Service</span>
         </nav>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-          <div className="w-20 h-20 rounded-3xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-2xl shadow-green-900/30 ring-1 ring-white/30">
+          <div className="w-20 h-20 rounded-3xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-2xl shadow-teal-900/30 ring-1 ring-white/30">
             <FaFileContract className="text-5xl"/>
           </div>
           <div>
@@ -47,13 +47,13 @@ export default function Terms() {
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaHandshake className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaHandshake className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 1
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -63,7 +63,7 @@ export default function Terms() {
           </div>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 1.1
               </span>
               <p className="text-sm">
@@ -72,7 +72,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 1.2
               </span>
               <p className="text-sm">
@@ -81,7 +81,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 1.3
               </span>
               <p className="text-sm">
@@ -91,13 +91,13 @@ export default function Terms() {
             </div>
           </div>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaUserCheck className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaUserCheck className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 2
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -107,7 +107,7 @@ export default function Terms() {
           </div>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 2.1
               </span>
               <p className="text-sm">
@@ -116,7 +116,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 2.2
               </span>
               <p className="text-sm">
@@ -125,7 +125,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 2.3
               </span>
               <p className="text-sm">
@@ -135,13 +135,13 @@ export default function Terms() {
             </div>
           </div>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaIdCard className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaIdCard className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 3
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -151,7 +151,7 @@ export default function Terms() {
           </div>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 3.1
               </span>
               <p className="text-sm">
@@ -160,7 +160,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 3.2
               </span>
               <p className="text-sm">
@@ -169,7 +169,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 3.3
               </span>
               <p className="text-sm">
@@ -178,7 +178,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 3.4
               </span>
               <p className="text-sm">
@@ -188,13 +188,13 @@ export default function Terms() {
             </div>
           </div>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaCreditCard className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaCreditCard className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 4
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -204,7 +204,7 @@ export default function Terms() {
           </div>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 4.1
               </span>
               <p className="text-sm">
@@ -213,7 +213,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 4.2
               </span>
               <p className="text-sm">
@@ -222,7 +222,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 4.3
               </span>
               <p className="text-sm">
@@ -231,7 +231,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 4.4
               </span>
               <p className="text-sm">
@@ -241,13 +241,13 @@ export default function Terms() {
             </div>
           </div>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaTruck className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaTruck className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 5
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -257,7 +257,7 @@ export default function Terms() {
           </div>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 5.1
               </span>
               <p className="text-sm">
@@ -265,7 +265,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 5.2
               </span>
               <p className="text-sm">
@@ -274,7 +274,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 5.3
               </span>
               <p className="text-sm">
@@ -284,13 +284,13 @@ export default function Terms() {
             </div>
           </div>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaArrowRotateLeft className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaArrowRotateLeft className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 6
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -300,7 +300,7 @@ export default function Terms() {
           </div>
           <div className="space-y-3">
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 6.1
               </span>
               <p className="text-sm">
@@ -309,7 +309,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 6.2
               </span>
               <p className="text-sm">
@@ -317,7 +317,7 @@ export default function Terms() {
               </p>
             </div>
             <div className="flex items-start gap-3 text-gray-600 leading-relaxed">
-              <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-teal-500 bg-teal-50 px-2 py-0.5 rounded-md mt-0.5 shrink-0">
                 6.3
               </span>
               <p className="text-sm">
@@ -327,13 +327,13 @@ export default function Terms() {
             </div>
           </div>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaScaleBalanced className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaScaleBalanced className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 7
               </span>
               <h2 className="text-xl font-bold text-gray-900">
@@ -348,13 +348,13 @@ export default function Terms() {
             directly or indirectly.
           </p>
         </section>
-        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-green-100 transition-all duration-300 group">
+        <section className="bg-white rounded-3xl border border-gray-100 p-6 sm:p-8 shadow-sm hover:shadow-lg hover:border-teal-100 transition-all duration-300 group">
           <div className="flex items-start gap-4 mb-5">
-            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-green-100 to-green-50 flex items-center justify-center shrink-0 group-hover:from-green-500 group-hover:to-green-400 transition-all duration-300">
-              <FaEnvelope className="text-3xl text-green-600 group-hover:text-white transition-colors duration-300"/>
+            <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-teal-100 to-teal-50 flex items-center justify-center shrink-0 group-hover:from-teal-500 group-hover:to-teal-400 transition-all duration-300">
+              <FaEnvelope className="text-3xl text-teal-600 group-hover:text-white transition-colors duration-300"/>
             </div>
             <div>
-              <span className="text-xs font-bold text-green-600 uppercase tracking-wider">
+              <span className="text-xs font-bold text-teal-600 uppercase tracking-wider">
                 Article 8
               </span>
               <h2 className="text-xl font-bold text-gray-900">Contact Us</h2>
@@ -364,7 +364,7 @@ export default function Terms() {
             If you have any questions about these Terms, please contact us at{" "}
             <Link
               href="mailto:support@freshcart.com"
-              className="text-green-600 hover:text-green-700 font-semibold hover:underline"
+              className="text-teal-600 hover:text-teal-700 font-semibold hover:underline"
             >
               support@freshcart.com
             </Link>
@@ -381,7 +381,7 @@ export default function Terms() {
             Back to Home
           </Link>
           <Link
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-500 text-white hover:bg-green-600 font-medium shadow-lg shadow-green-500/25 transition-all duration-200"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-500 text-white hover:bg-teal-600 font-medium shadow-lg shadow-teal-500/25 transition-all duration-200"
             href="/privacy"
           >
             View Privacy Policy<span className="text-lg">→</span>

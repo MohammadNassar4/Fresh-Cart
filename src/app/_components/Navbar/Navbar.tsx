@@ -63,11 +63,11 @@ export default function Navbar() {
               <input
                 type="text"
                 placeholder="Search for products, brands and more..."
-                className="w-full px-5 py-3 pr-12 rounded-full border border-gray-200 bg-gray-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 transition-all text-sm"
+                className="w-full px-5 py-3 pr-12 rounded-full border border-gray-200 bg-gray-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all text-sm"
               />
               <button
                 type="submit"
-                className="absolute cursor-pointer right-1.5 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-green-600 text-white flex items-center justify-center hover:bg-green-700 transition-colors"
+                className="absolute cursor-pointer right-1.5 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-teal-600 text-white flex items-center justify-center hover:bg-teal-700 transition-colors"
               >
                 <IoMdSearch className="text-white text-xl" />
               </button>
@@ -76,7 +76,7 @@ export default function Navbar() {
           <div className="gap-6 hidden xl:flex items-center">
             <NavigationMenuItem>
               <Link
-                className="text-gray-800 hover:text-green-600 font-medium"
+                className="text-gray-800 hover:text-teal-600 font-medium"
                 href="/"
               >
                 Home
@@ -84,37 +84,37 @@ export default function Navbar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link
-                className="text-gray-800 hover:text-green-600 font-medium"
+                className="text-gray-800 hover:text-teal-600 font-medium"
                 href="/products"
               >
                 Shop
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-gray-800 hover:text-green-600 font-medium">
+              <NavigationMenuTrigger className="text-gray-800 hover:text-teal-600 font-medium">
                 Categories
               </NavigationMenuTrigger>
               <NavigationMenuContent className="p-0">
                 <ul className="w-52 py-2">
-                  <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
+                  <li className="hover:text-teal-800 hover:bg-teal-50 p-3 w-full">
                     <Link href="/categories">All Categories</Link>
                   </li>
-                  <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
+                  <li className="hover:text-teal-800 hover:bg-teal-50 p-3 w-full">
                     <Link href="/products?category=6439d2d167d9aa4ca970649f">
                       Electronics
                     </Link>
                   </li>
-                  <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
+                  <li className="hover:text-teal-800 hover:bg-teal-50 p-3 w-full">
                     <Link href="/products?category=6439d58a0049ad0b52b9003f">
                       Women&apos;s fashion
                     </Link>
                   </li>
-                  <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
+                  <li className="hover:text-teal-800 hover:bg-teal-50 p-3 w-full">
                     <Link href="/products?category=6439d5b90049ad0b52b90048">
                       Men&apos;s fashion
                     </Link>
                   </li>
-                  <li className="hover:text-green-800 hover:bg-green-50 p-3 w-full">
+                  <li className="hover:text-teal-800 hover:bg-teal-50 p-3 w-full">
                     <Link href="/products?category=6439d30b67d9aa4ca97064b1">
                       Beauty & health
                     </Link>
@@ -124,7 +124,7 @@ export default function Navbar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link
-                className="text-gray-800 hover:text-green-600 font-medium"
+                className="text-gray-800 hover:text-teal-600 font-medium"
                 href="/brands"
               >
                 Brands
@@ -133,8 +133,8 @@ export default function Navbar() {
           </div>
           <Link href="/contact">
             <div className="hidden lg:flex gap-2 items-center border-r pr-4 cursor-pointer hover:opacity-60 transition-all duration-200">
-              <div className="rounded-full flex justify-center items-center w-10 h-10 bg-green-50">
-                <FaHeadset className="text-green-600" />
+              <div className="rounded-full flex justify-center items-center w-10 h-10 bg-teal-50">
+                <FaHeadset className="text-teal-600" />
               </div>
               <div>
                 <div className="text-xs text-gray-500">Support</div>
@@ -151,7 +151,7 @@ export default function Navbar() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-6 text-gray-500 group-hover/wishList:text-green-600"
+                  className="size-6 text-gray-500 group-hover/wishList:text-teal-600"
                 >
                   <path
                     strokeLinecap="round"
@@ -172,12 +172,12 @@ export default function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="size-6 text-gray-500 group-hover/cart:text-green-600"
+                  className="size-6 text-gray-500 group-hover/cart:text-teal-600"
                 >
                   <path d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
                 </svg>
                 {cartData?.numOfCartItems ? (
-                  <div className="absolute -top-1 -right-1 inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-green-600 text-white">
+                  <div className="absolute -top-1 -right-1 inline-flex items-center px-1.5 py-0.5 border-2 border-white rounded-full text-xs font-semibold leading-4 bg-teal-600 text-white">
                     {cartData?.numOfCartItems}
                   </div>
                 ) : null}
@@ -185,16 +185,16 @@ export default function Navbar() {
             </Link>
             {status === "authenticated" ? (
               <NavigationMenuItem className="hidden lg:block">
-                <NavigationMenuTrigger className="text-gray-800 hover:text-green-600 font-medium">
+                <NavigationMenuTrigger className="text-gray-800 hover:text-teal-600 font-medium">
                   <div className="group/user w-10 h-10 rounded-full flex justify-center items-center hover:bg-gray-100">
-                    <FaRegUserCircle className="text-xl text-gray-500 group-hover/user:text-green-600" />
+                    <FaRegUserCircle className="text-xl text-gray-500 group-hover/user:text-teal-600" />
                   </div>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="p-0 min-w-3xs">
                   <div className="p-4 border-b border-gray-100">
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                        <FaRegUserCircle className="text-2xl text-green-600" />
+                      <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center">
+                        <FaRegUserCircle className="text-2xl text-teal-600" />
                       </div>
                       <div className="min-w-0">
                         <p className="text-sm font-semibold text-gray-800 truncate">
@@ -210,65 +210,65 @@ export default function Navbar() {
                   <ul className="py-2">
                     <li>
                       <Link
-                        className="group hover:text-green-600 hover:bg-green-50 p-3 w-full flex items-center gap-2"
+                        className="group hover:text-teal-600 hover:bg-teal-50 p-3 w-full flex items-center gap-2"
                         href="/profile"
                       >
                         <span>
-                          <FiUser className="text-gray-400 group-hover:text-green-600" />
+                          <FiUser className="text-gray-400 group-hover:text-teal-600" />
                         </span>{" "}
-                        <span className="text-sm text-gray-600 group-hover:text-green-600">
+                        <span className="text-sm text-gray-600 group-hover:text-teal-600">
                           My Profile
                         </span>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="group hover:text-green-600 hover:bg-green-50 p-3 w-full flex items-center gap-2"
+                        className="group hover:text-teal-600 hover:bg-teal-50 p-3 w-full flex items-center gap-2"
                         href="/allorders"
                       >
                         <span>
-                          <FaBoxOpen className="text-gray-400 group-hover:text-green-600" />
+                          <FaBoxOpen className="text-gray-400 group-hover:text-teal-600" />
                         </span>{" "}
-                        <span className="text-sm text-gray-600 group-hover:text-green-600">
+                        <span className="text-sm text-gray-600 group-hover:text-teal-600">
                           My Orders
                         </span>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="group hover:text-green-600 hover:bg-green-50 p-3 w-full flex items-center gap-2"
+                        className="group hover:text-teal-600 hover:bg-teal-50 p-3 w-full flex items-center gap-2"
                         href="/wishlist"
                       >
                         <span>
-                          <FaRegHeart className="text-gray-400 group-hover:text-green-600" />
+                          <FaRegHeart className="text-gray-400 group-hover:text-teal-600" />
                         </span>{" "}
-                        <span className="text-sm text-gray-600 group-hover:text-green-600">
+                        <span className="text-sm text-gray-600 group-hover:text-teal-600">
                           My Wishlist
                         </span>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="group hover:text-green-600 hover:bg-green-50 p-3 w-full flex items-center gap-2"
+                        className="group hover:text-teal-600 hover:bg-teal-50 p-3 w-full flex items-center gap-2"
                         href="/profile/addresses"
                       >
                         <span>
-                          <FaRegAddressBook className="text-gray-400 group-hover:text-green-600" />
+                          <FaRegAddressBook className="text-gray-400 group-hover:text-teal-600" />
                         </span>{" "}
-                        <span className="text-sm text-gray-600 group-hover:text-green-600">
+                        <span className="text-sm text-gray-600 group-hover:text-teal-600">
                           Addresses
                         </span>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="group hover:text-green-600 hover:bg-green-50 p-3 w-full flex items-center gap-2"
+                        className="group hover:text-teal-600 hover:bg-teal-50 p-3 w-full flex items-center gap-2"
                         href="/profile/settings"
                       >
                         <span>
-                          <FaCog className="text-gray-400 group-hover:text-green-600" />
+                          <FaCog className="text-gray-400 group-hover:text-teal-600" />
                         </span>{" "}
-                        <span className="text-sm text-gray-600 group-hover:text-green-600">
+                        <span className="text-sm text-gray-600 group-hover:text-teal-600">
                           Settings
                         </span>
                       </Link>
@@ -288,7 +288,7 @@ export default function Navbar() {
             ) : (
               <Link
                 href="/login"
-                className="hidden hover:bg-green-700 transition-all duration-200 lg:flex items-center gap-2 cursor-pointer bg-green-600 rounded-full text-white py-2.5 px-5 font-semibold"
+                className="hidden hover:bg-teal-700 transition-all duration-200 lg:flex items-center gap-2 cursor-pointer bg-teal-600 rounded-full text-white py-2.5 px-5 font-semibold"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
