@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 
 export async function getTokenData() {
   const cookie = await cookies();
-  const sessionToken = cookie.get("next-auth.session-token")?.value;
+  const sessionToken = cookie.get("__Secure-next-auth.session-token")?.value;
   const accessToken = await decode({
     token: sessionToken,
     secret: process.env.NEXTAUTH_SECRET!,
