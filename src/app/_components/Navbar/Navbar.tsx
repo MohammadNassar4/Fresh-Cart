@@ -92,7 +92,6 @@ export default function Navbar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuTrigger
-                arrow={true}
                 className="text-gray-800 hover:text-green-600 font-medium"
               >
                 Categories
@@ -177,7 +176,6 @@ export default function Navbar() {
             {status === "authenticated" ? (
               <NavigationMenuItem className="hidden lg:block">
                 <NavigationMenuTrigger
-                  arrow={false}
                   className="text-gray-800 hover:text-green-600 font-medium"
                 >
                   <div className="group/user w-10 h-10 rounded-full flex justify-center items-center hover:bg-gray-100">
